@@ -20,6 +20,8 @@ def build(args, parser):
     wasi = args.target == 'wasi'
     if wasi:
         wasi_lock = json.loads((ROOT / 'families/wasi/toolchain.lock.json').read_text())
+        if platform.machine().lower() not in {'arm64', 'aarch64', 'x86_64', 'amd64'}:
+            parser.error('The WASI SDK build host must be arm64 or x86_64')
         architecture = 'arm64' if platform.machine() in {'arm64', 'aarch64'} else 'x86_64'
         sdk = wasi_lock['sdk']['wasi-sdk-34.0-' + architecture + '-linux.tar.gz']
     versions = json.loads((ROOT / 'versions.json').read_text())['versions']
@@ -42,6 +44,9 @@ def build(args, parser):
         fetch(inputs + selected + ([sdk] if wasi else []), args.offline)
     with tempfile.TemporaryDirectory(prefix='elixir-backend-') as temporary:
         context = Path(temporary)
+        if args.print_only and args.backend == 'atomvm':
+            context = ROOT / 'builds/inputs' / hashlib.sha256(script.read_bytes()).hexdigest()
+            context.mkdir(parents=True, exist_ok=True)
         if args.backend == 'atomvm':
             shutil.copyfile(script, context / 'source.exs')
         targets = {}
@@ -63,7 +68,7 @@ def build(args, parser):
             if wasi:
                 base_name = name + '-base'
                 dependencies[base_name] = {**target, 'target': 'compiler', 'output': ['type=cacheonly']}
-                targets[name] = {'context': str(ROOT), 'dockerfile': 'families/wasi/Dockerfile', 'target': 'artifacts', 'contexts': {'compiler-base': 'target:' + base_name}, 'args': {'ELIXIR_VERSION': version, 'BUILD_IMAGE': lock['popcorn']['jsBuilderImage'], 'ATOMVM_SHA256': lock['atomvm']['sha256'], 'SDK_FILE': sdk['file'], 'SDK_SHA256': sdk['sha256']}, 'output': ['type=local,dest=' + str(ROOT / 'builds' / identity)]}
+                targets[name] = {'context': str(ROOT), 'dockerfile': 'families/wasi/Dockerfile', 'target': 'artifacts', 'platforms': ['linux/' + ('arm64' if architecture == 'arm64' else 'amd64')], 'contexts': {'compiler-base': 'target:' + base_name}, 'args': {'ELIXIR_VERSION': version, 'BUILD_IMAGE': lock['popcorn']['jsBuilderImage'], 'ATOMVM_SHA256': lock['atomvm']['sha256'], 'SDK_FILE': sdk['file'], 'SDK_SHA256': sdk['sha256']}, 'output': ['type=local,dest=' + str(ROOT / 'builds' / identity)]}
         plan = {'group': {'default': {'targets': list(targets)}}, 'target': {**dependencies, **targets}}
         if args.print_only:
             print(json.dumps(plan, indent=2))

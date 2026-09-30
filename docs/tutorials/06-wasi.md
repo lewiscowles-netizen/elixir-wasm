@@ -15,9 +15,9 @@ The program prints its compiler version, `{platform,wasi}`, square numbers, `MES
 Create a directory and grant it separately:
 
 ```sh
-mkdir -p data
-printf 'Hello from a permitted directory' > data/input.txt
-wasmtime run --dir .::/bundle --dir data::/data AtomVM.wasm /bundle/program.avm /bundle/atomvmlib.avm
+mkdir -p ../wasi-data
+printf 'Hello from a permitted directory' > ../wasi-data/input.txt
+wasmtime run --dir .::/bundle --dir ../wasi-data::/data AtomVM.wasm /bundle/program.avm /bundle/atomvmlib.avm
 ```
 
 The `FILE=` line now contains your text. `/data` is a guest path chosen by the host command. Elixir still runs inside WebAssembly; Python is not involved in either execution command.

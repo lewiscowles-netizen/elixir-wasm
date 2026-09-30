@@ -58,11 +58,31 @@ class ContractTests(unittest.TestCase):
                 exporter.verify(root)
 
     def test_backend_compatibility_and_target_fail_before_docker(self):
-        for arguments in [['1.0.0', '--backend', 'atomvm'], ['1.17.3', '--backend', 'popcorn'], ['1.17.3', '--backend', 'atomvm', '--target', 'wasi'], ['1.20.4', '--backend', 'popcorn', '--target', 'wasi']]:
+        for arguments in [['1.0.0', '--backend', 'atomvm'], ['1.17.3', '--backend', 'popcorn'], ['1.20.4', '--backend', 'atomvm', '--target', 'wasi'], ['1.20.4', '--backend', 'popcorn', '--target', 'wasi']]:
             with self.subTest(arguments=arguments):
                 result = subprocess.run(['python3', str(ROOT / 'scripts/build.py'), *arguments, '--print'], capture_output=True, text=True)
                 self.assertEqual(result.returncode, 2)
                 self.assertEqual(result.stdout, '')
+
+    def test_wasi_uses_a_separate_recipe_and_native_compiler_dependency(self):
+        result = subprocess.run(['python3', str(ROOT / 'scripts/build.py'), '1.17', '--backend', 'atomvm', '--target', 'wasi', '--print'], capture_output=True, text=True, check=True)
+        plan = json.loads(result.stdout)
+        self.assertEqual(len(plan['group']['default']['targets']), 2)
+        for name in plan['group']['default']['targets']:
+            target = plan['target'][name]
+            self.assertEqual(target['dockerfile'], 'families/wasi/Dockerfile')
+            self.assertIn('/wasi-atomvm-', target['output'][0])
+            compiler = plan['target'][target['contexts']['compiler-base'][7:]]
+            self.assertEqual(compiler['target'], 'compiler')
+            self.assertEqual(len(target['args']['SDK_SHA256']), 64)
+
+    def test_wasi_import_contract_rejects_javascript_host_dependencies(self):
+        def module(namespace):
+            imports = bytes([1, len(namespace)]) + namespace + bytes([9]) + b'proc_exit' + bytes([0, 0])
+            return b'\x00asm\x01\x00\x00\x00\x01\x04\x01\x60\x00\x00' + bytes([2, len(imports)]) + imports
+        self.assertEqual(exporter.wasi_imports(module(b'wasi_snapshot_preview1')), ['proc_exit'])
+        with self.assertRaisesRegex(ValueError, 'non-WASI'):
+            exporter.wasi_imports(module(b'env'))
 
     def test_reimport_rejects_corruption_in_an_existing_export(self):
         with tempfile.TemporaryDirectory() as temporary:

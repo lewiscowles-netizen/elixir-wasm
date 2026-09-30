@@ -1,0 +1,65 @@
+[
+  {
+    "file": "WASI-SDK-LICENSE",
+    "url": "https://raw.githubusercontent.com/WebAssembly/wasi-sdk/wasi-sdk-34/LICENSE",
+    "sha256": "268872b9816f90fd8e85db5a28d33f8150ebb8dd016653fb39ef1f94f2686bc5"
+  },
+  {
+    "file": "WASI-LIBC-LICENSE",
+    "url": "https://raw.githubusercontent.com/WebAssembly/wasi-libc/2e6fb9d8ee0cdf9e431fbcabe8af3115de000a13/LICENSE",
+    "sha256": "2711a8b5a5cdfef0e639f96c1aca12ae23d7d64a02d0507f1bdf14d2b27bbc3a"
+  },
+  {
+    "file": "LLVM-LICENSE",
+    "url": "https://raw.githubusercontent.com/llvm/llvm-project/895aa2c896ada719451be2e3673c83da8ddf1141/llvm/LICENSE.TXT",
+    "sha256": "8d85c1057d742e597985c7d4e6320b015a9139385cff4cbae06ffc0ebe89afee"
+  },
+  {
+    "file": "WASI-LICENSE-APACHE",
+    "url": "https://raw.githubusercontent.com/WebAssembly/wasi-libc/2e6fb9d8ee0cdf9e431fbcabe8af3115de000a13/LICENSE-APACHE",
+    "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+    "extraction": "entire file"
+  },
+  {
+    "file": "WASI-LICENSE-APACHE-LLVM",
+    "url": "https://raw.githubusercontent.com/WebAssembly/wasi-libc/2e6fb9d8ee0cdf9e431fbcabe8af3115de000a13/LICENSE-APACHE-LLVM",
+    "sha256": "268872b9816f90fd8e85db5a28d33f8150ebb8dd016653fb39ef1f94f2686bc5",
+    "extraction": "entire file"
+  },
+  {
+    "file": "WASI-LICENSE-MIT",
+    "url": "https://raw.githubusercontent.com/WebAssembly/wasi-libc/2e6fb9d8ee0cdf9e431fbcabe8af3115de000a13/LICENSE-MIT",
+    "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+    "extraction": "entire file"
+  },
+  {
+    "file": "WASI-libc-bottom-half-cloudlibc-LICENSE",
+    "url": "https://raw.githubusercontent.com/WebAssembly/wasi-libc/2e6fb9d8ee0cdf9e431fbcabe8af3115de000a13/libc-bottom-half/cloudlibc/LICENSE",
+    "sha256": "c8b789cf5a746611e6300a0cc7750dbf92b61912a709d04e639245f7290656d0",
+    "extraction": "entire file"
+  },
+  {
+    "file": "WASI-libc-top-half-musl-COPYRIGHT",
+    "url": "https://raw.githubusercontent.com/WebAssembly/wasi-libc/2e6fb9d8ee0cdf9e431fbcabe8af3115de000a13/libc-top-half/musl/COPYRIGHT",
+    "sha256": "b870108ec5e7790e9f9919064f1b9421d62d5f9b0e6c230c6adf7ea2da62e97b",
+    "extraction": "entire file"
+  },
+  {
+    "file": "WASI-fts-musl-fts-COPYING",
+    "url": "https://raw.githubusercontent.com/WebAssembly/wasi-libc/2e6fb9d8ee0cdf9e431fbcabe8af3115de000a13/fts/musl-fts/COPYING",
+    "sha256": "55af87e4017668f54467a3380e7ebbac5e672d8c763bfe95e6fc882a6fdc4046",
+    "extraction": "entire file"
+  },
+  {
+    "file": "WASI-dlmalloc-src-malloc-NOTICE",
+    "url": "https://raw.githubusercontent.com/WebAssembly/wasi-libc/2e6fb9d8ee0cdf9e431fbcabe8af3115de000a13/dlmalloc/src/malloc.c",
+    "sha256": "4872c477338a576d7944d308b1d491afeb78408b9eca788468d5a1adae735553",
+    "extraction": "opening notice"
+  },
+  {
+    "file": "WASI-emmalloc-emmalloc-NOTICE",
+    "url": "https://raw.githubusercontent.com/WebAssembly/wasi-libc/2e6fb9d8ee0cdf9e431fbcabe8af3115de000a13/emmalloc/emmalloc.c",
+    "sha256": "39dc3bb396a3fb991b80a5a243efc6449894420a20d0d9a283b41a5425de2ced",
+    "extraction": "opening notice"
+  }
+]

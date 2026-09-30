@@ -72,7 +72,7 @@ def verify(bundle):
     if wasi:
         if backend != 'atomvm' or manifest.get('profile') != 'precompiled-wasi-command':
             raise ValueError('Unsupported WASI backend/profile')
-        required = common | (profiles['atomvm'] - {'AtomVM.mjs'})
+        required = common | (profiles['atomvm'] - {'AtomVM.mjs'}) | {'WASI-LIBC-LICENSE', 'WASI-SDK-LICENSE', 'LLVM-LICENSE', 'TOOLCHAIN-LICENSE-SOURCES.json'}
     if backend == 'popcorn':
         apps = manifest.get('apps', {})
         if not {'kernel', 'stdlib', 'compiler', 'elixir', 'popcorn', 'popcorn_lab'} <= apps.keys():

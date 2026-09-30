@@ -1,6 +1,6 @@
 # Runtime integrations
 
-The backend selects a runtime and application interface. The execution target selects a host contract; all three current integrations target the browser. WASI remains unimplemented.
+The backend selects a runtime and application interface. The execution target selects a host contract; all three integrations have browser recipes. AtomVM also has a separate [WASI command target](wasi.md), with [host execution evidence](../evidence/wasi.json). The counts below cover browser execution only.
 
 | Backend | Application interface | Elixir selection means | Measured browser bundles |
 | --- | --- | --- | --- |
