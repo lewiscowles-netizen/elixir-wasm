@@ -1,0 +1,25 @@
+{
+  "group": {
+    "default": {
+      "targets": [
+        "elixir-1-20-4"
+      ]
+    }
+  },
+  "target": {
+    "elixir-1-20-4": {
+      "context": ".",
+      "dockerfile": "Dockerfile",
+      "target": "browser-artifacts",
+      "args": {
+        "ELIXIR_VERSION": "1.20.4",
+        "JOBS": "4",
+        "EMSDK_IMAGE": "emscripten/emsdk:6.0.2@sha256:644883f58ca15c38c8be59b3a727ba0eff347729bc31d50a3348a6c9ed92bc07",
+        "OTP_IMAGE": "hexpm/erlang:29.0.6-ubuntu-noble-20260911@sha256:7bc4f2c3eea8acec1d27572f85c22c55c50d7def5b9790ea7c94c7ff93cf6e78"
+      },
+      "output": [
+        "type=local,dest=./builds/browser-1.20.4"
+      ]
+    }
+  }
+}

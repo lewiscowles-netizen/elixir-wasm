@@ -1,0 +1,2546 @@
+{
+  "schemaVersion": 1,
+  "scope": "Core version/arithmetic/modules/processes/files probes; not complete standard-library or historical-OTP compatibility",
+  "browserEvidenceTime": "2026-09-29T17:59:50.317Z",
+  "labSourceHashes": {
+    "web/worker.mjs": "7bb832779bcc25f2b5a35bddf38569b4237870f6d1fa844f0908afda89a4c0ff",
+    "web/atomvm-worker.mjs": "f2203016bc8ff479c505fa77f37c438feec988695c4e28ad50542062d02d619c",
+    "web/popcorn-adapter.mjs": "27dcd82c44ceebdae4eb32cea731d40f926a9fc027b2b9bc3902be0e0db4e1c5",
+    "web/app.mjs": "56e48ee5db874bb774c13ec8b3895cb551db8d0432decb91177019f35fc0335a",
+    "web/index.html": "5199ccb4f95c6b429a127c166b144e17121243bbdda82cf039278736712244ed",
+    "tests/browser.spec.cjs": "4fbfbdc44290055d1cd5114052f8400682632f2a9c4d54ea3a78d7c5b2115fa3",
+    "tests/evidence-reporter.cjs": "cb5e8445b31c0491a76a3f0e30f20c21fd37d01f6cfeb887d62cbd85ecc76d61",
+    "playwright.config.cjs": "bb0ffb40ce92e475e3d0384f157bc6e6197cb901d7ea56c7049293baa5962ebd",
+    "serve.py": "4ea24a4db629371b08c8e9bd2cdc8c496d29c55dc13e846a30d5f2f7e2a56f6b"
+  },
+  "results": [
+    {
+      "version": "1.0.0",
+      "sourceSha256": "527774b05bcaacb0347299b42035b606107e88665fcdd415b0b62704ad7928b2",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "nativeEvidence": {
+        "version": "1.0.0",
+        "compiler": {
+          "minMinor": 0,
+          "maxMinor": 1,
+          "otp": "17.5",
+          "image": "erlang:17.5@sha256:3e75172790a9fcfdcc32f8c94297e6134b59a48bb86091f08172e4d5b2a6ae44"
+        },
+        "profile": "historical-retarget",
+        "browserTested": false,
+        "native": {
+          "exitCode": 1,
+          "log": "builds/logs/historical-native-1.0.0.log",
+          "logSha256": "0f6c890a3079c62f11c47f6e7a1f00969a36f8094facc0fd474a7c73481cb3e0"
+        }
+      },
+      "bundleEvidence": {
+        "version": "1.0.0",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "log": "builds/logs/browser-1.0.0.log",
+        "logSha256": "6200e5c467c4e9228cb1aec3c0b38111b68c94de3e0e0a596a74c57687e7c296",
+        "time": "2026-09-29T16:49:58.230734+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "dc295413fd0b68cd425b7b6ae42a57887d12138cbc51d7396b572c5f09c104b2",
+      "browserEvidence": {
+        "name": "execute 1.0.0 without external network",
+        "status": "passed",
+        "durationMs": 963,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.0.0",
+            "application": null,
+            "version": "1.0.0",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "17.5",
+            "directory": "runtimes/1.0.0-dc295413fd0b68cd/",
+            "status": "built",
+            "manifestSha256": "dc295413fd0b68cd425b7b6ae42a57887d12138cbc51d7396b572c5f09c104b2"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "dc295413fd0b68cd425b7b6ae42a57887d12138cbc51d7396b572c5f09c104b2",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.40 s",
+            "stdout": "VERSION=1.0.0\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.0.5",
+      "sourceSha256": "5ce5c226b3d11d751b41ad79b915b86f13f8a1b89ef3e733321d3f46ff4d81b8",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "nativeEvidence": {
+        "version": "1.0.5",
+        "compiler": {
+          "minMinor": 0,
+          "maxMinor": 1,
+          "otp": "17.5",
+          "image": "erlang:17.5@sha256:3e75172790a9fcfdcc32f8c94297e6134b59a48bb86091f08172e4d5b2a6ae44"
+        },
+        "profile": "historical-retarget",
+        "browserTested": false,
+        "native": {
+          "exitCode": 1,
+          "log": "builds/logs/historical-native-1.0.5.log",
+          "logSha256": "68b7e48fb4bf0b0eea8210c667d18bcadf607c50b09ef48f4cada71f9b842d36"
+        }
+      },
+      "bundleEvidence": {
+        "version": "1.0.5",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "log": "builds/logs/browser-1.0.5.log",
+        "logSha256": "2d9a84fa625342356ab2978c4a0e8d79d53505545e7d79aee14e1b06f19f29ef",
+        "time": "2026-09-29T16:55:46.811196+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "28cae77999429ec319bb7900614c0d0a87797b89f02516b54d3e5dee620b423b",
+      "browserEvidence": {
+        "name": "execute 1.0.5 without external network",
+        "status": "passed",
+        "durationMs": 955,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.0.5",
+            "application": null,
+            "version": "1.0.5",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "17.5",
+            "directory": "runtimes/1.0.5-28cae77999429ec3/",
+            "status": "built",
+            "manifestSha256": "28cae77999429ec319bb7900614c0d0a87797b89f02516b54d3e5dee620b423b"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "28cae77999429ec319bb7900614c0d0a87797b89f02516b54d3e5dee620b423b",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.44 s",
+            "stdout": "VERSION=1.0.5\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.1.0",
+      "sourceSha256": "6be4f083df230f901975df3a3bb32d3bd1e70a4d0a072aabc5972113b37ebb3b",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "nativeEvidence": {
+        "version": "1.1.0",
+        "compiler": {
+          "minMinor": 0,
+          "maxMinor": 1,
+          "otp": "17.5",
+          "image": "erlang:17.5@sha256:3e75172790a9fcfdcc32f8c94297e6134b59a48bb86091f08172e4d5b2a6ae44"
+        },
+        "profile": "historical-retarget",
+        "browserTested": false,
+        "native": {
+          "exitCode": 0,
+          "log": "builds/logs/historical-native-1.1.0.log",
+          "logSha256": "6ef95a36ad104a10cd31b7256a4f8c9188121abd4e46c46d9c7f22496d99a8d9"
+        }
+      },
+      "bundleEvidence": {
+        "version": "1.1.0",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "log": "builds/logs/browser-1.1.0.log",
+        "logSha256": "7f56899882c93df84ad514d773293af9db20ecc0b46cb51f349dcee3cab296c8",
+        "time": "2026-09-29T16:49:31.549584+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "c6c1e04246b45a34c03860e6b359d30f05ba0eddbdde2a15898ad2fe74236037",
+      "browserEvidence": {
+        "name": "execute 1.1.0 without external network",
+        "status": "passed",
+        "durationMs": 998,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.1.0",
+            "application": null,
+            "version": "1.1.0",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "17.5",
+            "directory": "runtimes/1.1.0-c6c1e04246b45a34/",
+            "status": "built",
+            "manifestSha256": "c6c1e04246b45a34c03860e6b359d30f05ba0eddbdde2a15898ad2fe74236037"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "c6c1e04246b45a34c03860e6b359d30f05ba0eddbdde2a15898ad2fe74236037",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.42 s",
+            "stdout": "VERSION=1.1.0\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.1.1",
+      "sourceSha256": "3b7d6e4fdbcc82d19fa76f4e384f8a87535abcd00ef04528dc6b6706f32a106a",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "nativeEvidence": {
+        "version": "1.1.1",
+        "compiler": {
+          "minMinor": 0,
+          "maxMinor": 1,
+          "otp": "17.5",
+          "image": "erlang:17.5@sha256:3e75172790a9fcfdcc32f8c94297e6134b59a48bb86091f08172e4d5b2a6ae44"
+        },
+        "profile": "historical-retarget",
+        "browserTested": false,
+        "native": {
+          "exitCode": 0,
+          "log": "builds/logs/historical-native-1.1.1.log",
+          "logSha256": "a19edd9e09212c6de29485483720db095388e1dc0151fd68fa6bc299e4411b7c"
+        }
+      },
+      "bundleEvidence": {
+        "version": "1.1.1",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "log": "builds/logs/browser-1.1.1.log",
+        "logSha256": "a225dc056b90365e5434a27ac74e9e624ad43a4308c7d83dc6f2922fe4590bb3",
+        "time": "2026-09-29T16:59:10.166908+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "fd22e3bcd309a6de209f03782865ab6c64228b9eb824c08c4b8129939e812a7b",
+      "browserEvidence": {
+        "name": "execute 1.1.1 without external network",
+        "status": "passed",
+        "durationMs": 981,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.1.1",
+            "application": null,
+            "version": "1.1.1",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "17.5",
+            "directory": "runtimes/1.1.1-fd22e3bcd309a6de/",
+            "status": "built",
+            "manifestSha256": "fd22e3bcd309a6de209f03782865ab6c64228b9eb824c08c4b8129939e812a7b"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "fd22e3bcd309a6de209f03782865ab6c64228b9eb824c08c4b8129939e812a7b",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.40 s",
+            "stdout": "VERSION=1.1.1\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.2.0",
+      "sourceSha256": "9f68ee5213b883c91f2f521df1f773ceec5913dbf075f7781b57ac97543e7268",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "nativeEvidence": {
+        "version": "1.2.0",
+        "compiler": {
+          "minMinor": 2,
+          "maxMinor": 5,
+          "otp": "18.3",
+          "image": "erlang:18.3@sha256:ba863dbd07cf97be1e3cfbd196112a10192144500bb2e43ac4e71d90db081aef"
+        },
+        "profile": "historical-retarget",
+        "browserTested": false,
+        "native": {
+          "exitCode": 0,
+          "log": "builds/logs/historical-native-1.2.0.log",
+          "logSha256": "8133ca7a9cbab4aa8eebf148081dc441308c213a55d3cd60ed318f9085aa54b2"
+        }
+      },
+      "bundleEvidence": {
+        "version": "1.2.0",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "log": "builds/logs/browser-1.2.0.log",
+        "logSha256": "b3a25228f2daef41948d21ee835daa97d60e65ad2db101c6dcf2ef4c26238e6f",
+        "time": "2026-09-29T16:58:37.745174+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "807894486b842fd0e87b62c0c35671b9681ba077b7345a5c68a173002b83d11f",
+      "browserEvidence": {
+        "name": "execute 1.2.0 without external network",
+        "status": "passed",
+        "durationMs": 978,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.2.0",
+            "application": null,
+            "version": "1.2.0",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "18.3",
+            "directory": "runtimes/1.2.0-807894486b842fd0/",
+            "status": "built",
+            "manifestSha256": "807894486b842fd0e87b62c0c35671b9681ba077b7345a5c68a173002b83d11f"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "807894486b842fd0e87b62c0c35671b9681ba077b7345a5c68a173002b83d11f",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.45 s",
+            "stdout": "VERSION=1.2.0\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.2.6",
+      "sourceSha256": "2fd4ed9d7d8b4bd9f151cdaf6b39726d64d7cf756186a5c9454867514e5b0916",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "nativeEvidence": {
+        "version": "1.2.6",
+        "compiler": {
+          "minMinor": 2,
+          "maxMinor": 5,
+          "otp": "18.3",
+          "image": "erlang:18.3@sha256:ba863dbd07cf97be1e3cfbd196112a10192144500bb2e43ac4e71d90db081aef"
+        },
+        "profile": "historical-retarget",
+        "browserTested": false,
+        "native": {
+          "exitCode": 0,
+          "log": "builds/logs/historical-native-1.2.6.log",
+          "logSha256": "3135bcde034b64d9b7683d6b22ba16e45a24a4b37866c7ccfbd676fc3d22e24b"
+        }
+      },
+      "bundleEvidence": {
+        "version": "1.2.6",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "log": "builds/logs/browser-1.2.6.log",
+        "logSha256": "35460e67c2ddb5d576fdbc9d35c1da74b74edace7ffc584fd783e3b7076db439",
+        "time": "2026-09-29T16:58:37.752356+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "44556dd409dcc8e56738b9991b3da1f4b955c174f6e57ee5cce566677fd2e5ab",
+      "browserEvidence": {
+        "name": "execute 1.2.6 without external network",
+        "status": "passed",
+        "durationMs": 1006,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.2.6",
+            "application": null,
+            "version": "1.2.6",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "18.3",
+            "directory": "runtimes/1.2.6-44556dd409dcc8e5/",
+            "status": "built",
+            "manifestSha256": "44556dd409dcc8e56738b9991b3da1f4b955c174f6e57ee5cce566677fd2e5ab"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "44556dd409dcc8e56738b9991b3da1f4b955c174f6e57ee5cce566677fd2e5ab",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.49 s",
+            "stdout": "VERSION=1.2.6\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.3.0",
+      "sourceSha256": "66cb8448dd60397cad11ba554c2613f732192c9026468cff55e8347a5ae4004a",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "nativeEvidence": {
+        "version": "1.3.0",
+        "compiler": {
+          "minMinor": 2,
+          "maxMinor": 5,
+          "otp": "18.3",
+          "image": "erlang:18.3@sha256:ba863dbd07cf97be1e3cfbd196112a10192144500bb2e43ac4e71d90db081aef"
+        },
+        "profile": "historical-retarget",
+        "browserTested": false,
+        "native": {
+          "exitCode": 0,
+          "log": "builds/logs/historical-native-1.3.0.log",
+          "logSha256": "e2b4383d2bcdf0e8bbfc14bb67b58d113cb8201f054648c86d19d146206fce58"
+        }
+      },
+      "bundleEvidence": {
+        "version": "1.3.0",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "log": "builds/logs/browser-1.3.0.log",
+        "logSha256": "cac95d44b45d78b0778ea2ca10b64b5f27ac6a8739e0edfdb15c16595bc5b86d",
+        "time": "2026-09-29T17:04:25.288015+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "6a099704a62f41abe21ad5c0b507084de59ca4404bc2276daa5fba75eedf3b36",
+      "browserEvidence": {
+        "name": "execute 1.3.0 without external network",
+        "status": "passed",
+        "durationMs": 1004,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.3.0",
+            "application": null,
+            "version": "1.3.0",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "18.3",
+            "directory": "runtimes/1.3.0-6a099704a62f41ab/",
+            "status": "built",
+            "manifestSha256": "6a099704a62f41abe21ad5c0b507084de59ca4404bc2276daa5fba75eedf3b36"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "6a099704a62f41abe21ad5c0b507084de59ca4404bc2276daa5fba75eedf3b36",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.43 s",
+            "stdout": "VERSION=1.3.0\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.3.4",
+      "sourceSha256": "f5ee5353d8dbe610b1dfd276d22f2038d57d9a7d3cea69dac10da2b098bd2033",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "nativeEvidence": {
+        "version": "1.3.4",
+        "compiler": {
+          "minMinor": 2,
+          "maxMinor": 5,
+          "otp": "18.3",
+          "image": "erlang:18.3@sha256:ba863dbd07cf97be1e3cfbd196112a10192144500bb2e43ac4e71d90db081aef"
+        },
+        "profile": "historical-retarget",
+        "browserTested": false,
+        "native": {
+          "exitCode": 0,
+          "log": "builds/logs/historical-native-1.3.4.log",
+          "logSha256": "d5316c3132e0659425e565467924899f5271b126ece5ebf720d5c2612270c93c"
+        }
+      },
+      "bundleEvidence": {
+        "version": "1.3.4",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "log": "builds/logs/browser-1.3.4.log",
+        "logSha256": "f7d81592af7aed3d694d59804ec48a03e561c55c3462968d5c080209ac989ab2",
+        "time": "2026-09-29T17:06:05.615067+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "88b1e9b2863c078c72bed0ac6520909dfeb947462e6787eaf6dbbaa4463dc300",
+      "browserEvidence": {
+        "name": "execute 1.3.4 without external network",
+        "status": "passed",
+        "durationMs": 1063,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.3.4",
+            "application": null,
+            "version": "1.3.4",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "18.3",
+            "directory": "runtimes/1.3.4-88b1e9b2863c078c/",
+            "status": "built",
+            "manifestSha256": "88b1e9b2863c078c72bed0ac6520909dfeb947462e6787eaf6dbbaa4463dc300"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "88b1e9b2863c078c72bed0ac6520909dfeb947462e6787eaf6dbbaa4463dc300",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.49 s",
+            "stdout": "VERSION=1.3.4\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.4.0",
+      "sourceSha256": "34a6747b5db75c35e542805b75a08bc1b2b0a53b5180f33de6af0bdff870e6b3",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "nativeEvidence": {
+        "version": "1.4.0",
+        "compiler": {
+          "minMinor": 2,
+          "maxMinor": 5,
+          "otp": "18.3",
+          "image": "erlang:18.3@sha256:ba863dbd07cf97be1e3cfbd196112a10192144500bb2e43ac4e71d90db081aef"
+        },
+        "profile": "historical-retarget",
+        "browserTested": false,
+        "native": {
+          "exitCode": 0,
+          "log": "builds/logs/historical-native-1.4.0.log",
+          "logSha256": "c2e833e7cdac1c33a1732a1d34e15e8ee879988e64fe8b82bf8ce5cc8ef313cd"
+        }
+      },
+      "bundleEvidence": {
+        "version": "1.4.0",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "log": "builds/logs/browser-1.4.0.log",
+        "logSha256": "d24130183a5dbf9a4ff2c19239e0a243cf1675503df1a13fd702fc006d82f28a",
+        "time": "2026-09-29T17:07:10.086920+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "e0469c4f8a6874dff8179f5c70c75f04f62c55dc472468ccfca8c90701f86bdd",
+      "browserEvidence": {
+        "name": "execute 1.4.0 without external network",
+        "status": "passed",
+        "durationMs": 969,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.4.0",
+            "application": null,
+            "version": "1.4.0",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "18.3",
+            "directory": "runtimes/1.4.0-e0469c4f8a6874df/",
+            "status": "built",
+            "manifestSha256": "e0469c4f8a6874dff8179f5c70c75f04f62c55dc472468ccfca8c90701f86bdd"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "e0469c4f8a6874dff8179f5c70c75f04f62c55dc472468ccfca8c90701f86bdd",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.41 s",
+            "stdout": "VERSION=1.4.0\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.4.5",
+      "sourceSha256": "bef1a0ea7a36539eed4b104ec26a82e46940959345ed66509ec6cc3d987bada0",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "nativeEvidence": {
+        "version": "1.4.5",
+        "compiler": {
+          "minMinor": 2,
+          "maxMinor": 5,
+          "otp": "18.3",
+          "image": "erlang:18.3@sha256:ba863dbd07cf97be1e3cfbd196112a10192144500bb2e43ac4e71d90db081aef"
+        },
+        "profile": "historical-retarget",
+        "browserTested": false,
+        "native": {
+          "exitCode": 0,
+          "log": "builds/logs/historical-native-1.4.5.log",
+          "logSha256": "eeb9fc57a5836b813d5815f903a23a2a74802793f5dd761aa1e62689d9f09c5a"
+        }
+      },
+      "bundleEvidence": {
+        "version": "1.4.5",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "log": "builds/logs/browser-1.4.5.log",
+        "logSha256": "da98ed264c18225a052481c60bf0a5ba2be1d597308e027a03dff5259d09a1fa",
+        "time": "2026-09-29T17:10:57.594507+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "b9e00109407427b6fc34d680e31b60067a1d1565744682c962903a8332efb652",
+      "browserEvidence": {
+        "name": "execute 1.4.5 without external network",
+        "status": "passed",
+        "durationMs": 1106,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.4.5",
+            "application": null,
+            "version": "1.4.5",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "18.3",
+            "directory": "runtimes/1.4.5-b9e00109407427b6/",
+            "status": "built",
+            "manifestSha256": "b9e00109407427b6fc34d680e31b60067a1d1565744682c962903a8332efb652"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "b9e00109407427b6fc34d680e31b60067a1d1565744682c962903a8332efb652",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.54 s",
+            "stdout": "VERSION=1.4.5\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.5.0",
+      "sourceSha256": "0857550097d0bf078a218f7663372f5c9a899847d73399f05ca9fa9087edf462",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "nativeEvidence": {
+        "version": "1.5.0",
+        "compiler": {
+          "minMinor": 2,
+          "maxMinor": 5,
+          "otp": "18.3",
+          "image": "erlang:18.3@sha256:ba863dbd07cf97be1e3cfbd196112a10192144500bb2e43ac4e71d90db081aef"
+        },
+        "profile": "historical-retarget",
+        "browserTested": false,
+        "native": {
+          "exitCode": 0,
+          "log": "builds/logs/historical-native-1.5.0.log",
+          "logSha256": "5653faa7eea7e5bba8bba6075bbc74353c47aa04ca79f8da58c9833890ca8212"
+        }
+      },
+      "bundleEvidence": {
+        "version": "1.5.0",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "log": "builds/logs/browser-1.5.0.log",
+        "logSha256": "9837d7d6f47a7c17bd806562681b7625401ade30a1848aeecbb67861c8408ab0",
+        "time": "2026-09-29T17:10:13.870815+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "2e4b1ef3c60386130efeb3a93f2d473b44fa5983503a12bf16048339f0a2e856",
+      "browserEvidence": {
+        "name": "execute 1.5.0 without external network",
+        "status": "passed",
+        "durationMs": 997,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.5.0",
+            "application": null,
+            "version": "1.5.0",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "18.3",
+            "directory": "runtimes/1.5.0-2e4b1ef3c6038613/",
+            "status": "built",
+            "manifestSha256": "2e4b1ef3c60386130efeb3a93f2d473b44fa5983503a12bf16048339f0a2e856"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "2e4b1ef3c60386130efeb3a93f2d473b44fa5983503a12bf16048339f0a2e856",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.43 s",
+            "stdout": "VERSION=1.5.0\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.5.3",
+      "sourceSha256": "0fc6024b6027d87af9609b416448fd65d8927e0d05fc02410b35f4b9b9eb9629",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "nativeEvidence": {
+        "version": "1.5.3",
+        "compiler": {
+          "minMinor": 2,
+          "maxMinor": 5,
+          "otp": "18.3",
+          "image": "erlang:18.3@sha256:ba863dbd07cf97be1e3cfbd196112a10192144500bb2e43ac4e71d90db081aef"
+        },
+        "profile": "historical-retarget",
+        "browserTested": false,
+        "native": {
+          "exitCode": 0,
+          "log": "builds/logs/historical-native-1.5.3.log",
+          "logSha256": "1443276bef8b35a80947603d531ffc0688a2ca0ec105a863cb981c07651d2612"
+        }
+      },
+      "bundleEvidence": {
+        "version": "1.5.3",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "log": "builds/logs/browser-1.5.3.log",
+        "logSha256": "8ba1675e5953ca37df5490553348f71a08539799d4c80234ced665508f3ac979",
+        "time": "2026-09-29T16:49:31.466758+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "e8766b6272588186a70c214237d472b3f9e8152d47bd22cce9365be5a281357f",
+      "browserEvidence": {
+        "name": "execute 1.5.3 without external network",
+        "status": "passed",
+        "durationMs": 988,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.5.3",
+            "application": null,
+            "version": "1.5.3",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "18.3",
+            "directory": "runtimes/1.5.3-e8766b6272588186/",
+            "status": "built",
+            "manifestSha256": "e8766b6272588186a70c214237d472b3f9e8152d47bd22cce9365be5a281357f"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "e8766b6272588186a70c214237d472b3f9e8152d47bd22cce9365be5a281357f",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.45 s",
+            "stdout": "VERSION=1.5.3\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.6.0",
+      "sourceSha256": "28d93afac480a279b75c3e57ce53fb4c027217c8db55a19d364efe8ceccd1b40",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "bundleEvidence": {
+        "version": "1.6.0",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "log": "builds/logs/browser-1.6.0.log",
+        "logSha256": "ebac6b2bfdb9bf3259aba06c986791cc36fb8f3f7e305c72f9d5935693e2e995",
+        "time": "2026-09-29T16:56:22.842758+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "72f9bd62e2e6b92d76d89c6d3f45324aae558fddef1564d7a3ad4a51a50e41aa",
+      "browserEvidence": {
+        "name": "execute 1.6.0 without external network",
+        "status": "passed",
+        "durationMs": 995,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.6.0",
+            "application": null,
+            "version": "1.6.0",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "19.3",
+            "directory": "runtimes/1.6.0-72f9bd62e2e6b92d/",
+            "status": "built",
+            "manifestSha256": "72f9bd62e2e6b92d76d89c6d3f45324aae558fddef1564d7a3ad4a51a50e41aa"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "72f9bd62e2e6b92d76d89c6d3f45324aae558fddef1564d7a3ad4a51a50e41aa",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.44 s",
+            "stdout": "VERSION=1.6.0\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.6.6",
+      "sourceSha256": "74507b0646bf485ee3af0e7727e3fdab7123f1c5ecf2187a52a928ad60f93831",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "bundleEvidence": {
+        "version": "1.6.6",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "log": "builds/logs/browser-1.6.6.log",
+        "logSha256": "c4ada7f992f745e01d84ac6375da7785f0e253a44adb58e6d8c0ca82aa8cc572",
+        "time": "2026-09-29T16:59:10.161818+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "d61092a8d5cd8573fb90e92b94644805998ea0973c8edb0e29ecd4fa88572494",
+      "browserEvidence": {
+        "name": "execute 1.6.6 without external network",
+        "status": "passed",
+        "durationMs": 983,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.6.6",
+            "application": null,
+            "version": "1.6.6",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "19.3",
+            "directory": "runtimes/1.6.6-d61092a8d5cd8573/",
+            "status": "built",
+            "manifestSha256": "d61092a8d5cd8573fb90e92b94644805998ea0973c8edb0e29ecd4fa88572494"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "d61092a8d5cd8573fb90e92b94644805998ea0973c8edb0e29ecd4fa88572494",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.42 s",
+            "stdout": "VERSION=1.6.6\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.7.0",
+      "sourceSha256": "791f726f7e3bb05a4620beb6191f2d758332ea7a169861b03580a16022c49a75",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "bundleEvidence": {
+        "version": "1.7.0",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "log": "builds/logs/browser-1.7.0.log",
+        "logSha256": "0753904345e6351d8757bc4cba21625c46a6f2534eb385f85e109c96daa804a0",
+        "time": "2026-09-29T17:06:05.631754+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "672214b7e576ded94d4ffdc625863813e34a70d02ec97fc1348a39bc5731c20d",
+      "browserEvidence": {
+        "name": "execute 1.7.0 without external network",
+        "status": "passed",
+        "durationMs": 1009,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.7.0",
+            "application": null,
+            "version": "1.7.0",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "22.3.4.26",
+            "directory": "runtimes/1.7.0-672214b7e576ded9/",
+            "status": "built",
+            "manifestSha256": "672214b7e576ded94d4ffdc625863813e34a70d02ec97fc1348a39bc5731c20d"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "672214b7e576ded94d4ffdc625863813e34a70d02ec97fc1348a39bc5731c20d",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.47 s",
+            "stdout": "VERSION=1.7.0\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.7.4",
+      "sourceSha256": "c7c87983e03a1dcf20078141a22355e88dadb26b53d3f3f98b9a9268687f9e20",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "bundleEvidence": {
+        "version": "1.7.4",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "log": "builds/logs/browser-1.7.4.log",
+        "logSha256": "1942b1b83b3df6c716ecf643dab4f4bb6e07b5c794db2b003db61533227d290a",
+        "time": "2026-09-29T17:07:09.107209+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "d665639148c2a937ee56bda8ae5e3fbc30692291246b3cfe4db93a06ffd9a85e",
+      "browserEvidence": {
+        "name": "execute 1.7.4 without external network",
+        "status": "passed",
+        "durationMs": 963,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.7.4",
+            "application": null,
+            "version": "1.7.4",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "22.3.4.26",
+            "directory": "runtimes/1.7.4-d665639148c2a937/",
+            "status": "built",
+            "manifestSha256": "d665639148c2a937ee56bda8ae5e3fbc30692291246b3cfe4db93a06ffd9a85e"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "d665639148c2a937ee56bda8ae5e3fbc30692291246b3cfe4db93a06ffd9a85e",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.45 s",
+            "stdout": "VERSION=1.7.4\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.8.0",
+      "sourceSha256": "fe896d8b2914f982d2e6fceeb585f59a8f92ad872653fc46c13df9ff86d69234",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "bundleEvidence": {
+        "version": "1.8.0",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "phases": [
+          {
+            "target": "historical-packaged",
+            "exitCode": 0,
+            "seconds": 8.968
+          },
+          {
+            "target": "historical-browser-artifacts",
+            "exitCode": 0,
+            "seconds": 13.806
+          }
+        ],
+        "log": "builds/logs/browser-1.8.0.log",
+        "logSha256": "23c732f9681f3103c60894796c1340ccfc8c5bd0fe4df22a9c6711bed077bcda",
+        "time": "2026-09-29T17:15:33.263941+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "233546f83aed9f0358bd8b5340d43308ae58f725a72e4e46decbbf917e7c62e4",
+      "browserEvidence": {
+        "name": "execute 1.8.0 without external network",
+        "status": "passed",
+        "durationMs": 987,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.8.0",
+            "application": null,
+            "version": "1.8.0",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "22.3.4.26",
+            "directory": "runtimes/1.8.0-233546f83aed9f03/",
+            "status": "built",
+            "manifestSha256": "233546f83aed9f0358bd8b5340d43308ae58f725a72e4e46decbbf917e7c62e4"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "233546f83aed9f0358bd8b5340d43308ae58f725a72e4e46decbbf917e7c62e4",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.43 s",
+            "stdout": "VERSION=1.8.0\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.8.2",
+      "sourceSha256": "cf9bf0b2d92bc4671431e3fe1d1b0a0e5125f1a942cc4fdf7914b74f04efb835",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "bundleEvidence": {
+        "version": "1.8.2",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "phases": [
+          {
+            "target": "historical-packaged",
+            "exitCode": 0,
+            "seconds": 11.419
+          },
+          {
+            "target": "historical-browser-artifacts",
+            "exitCode": 0,
+            "seconds": 8.084
+          }
+        ],
+        "log": "builds/logs/browser-1.8.2.log",
+        "logSha256": "71b8b0ec0b2ff3fdb8e2521781d4369280f216ff6d33ed088ccd1ccf87b7edcb",
+        "time": "2026-09-29T17:15:29.989437+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "f5c6e99ceebf981e2f5a6072cba02bdc9bb17fee30787c65193f5838bd191f4d",
+      "browserEvidence": {
+        "name": "execute 1.8.2 without external network",
+        "status": "passed",
+        "durationMs": 1019,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.8.2",
+            "application": null,
+            "version": "1.8.2",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "22.3.4.26",
+            "directory": "runtimes/1.8.2-f5c6e99ceebf981e/",
+            "status": "built",
+            "manifestSha256": "f5c6e99ceebf981e2f5a6072cba02bdc9bb17fee30787c65193f5838bd191f4d"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "f5c6e99ceebf981e2f5a6072cba02bdc9bb17fee30787c65193f5838bd191f4d",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.46 s",
+            "stdout": "VERSION=1.8.2\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.9.0",
+      "sourceSha256": "dbf4cb66634e22d60fe4aa162946c992257f700c7db123212e7e29d1c0b0c487",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "bundleEvidence": {
+        "version": "1.9.0",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "phases": [
+          {
+            "target": "historical-packaged",
+            "exitCode": 0,
+            "seconds": 8.959
+          },
+          {
+            "target": "historical-browser-artifacts",
+            "exitCode": 0,
+            "seconds": 9.562
+          }
+        ],
+        "log": "builds/logs/browser-1.9.0.log",
+        "logSha256": "cbd63e342c863a56ca07d16a42316f16a4780160eac5bd3a93a4c38ff4f038b2",
+        "time": "2026-09-29T17:15:29.010110+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "c088f822d07bf0a774ccfccfffbdd9f347ce4e27d4d3870a26989eaee814d32e",
+      "browserEvidence": {
+        "name": "execute 1.9.0 without external network",
+        "status": "passed",
+        "durationMs": 1023,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.9.0",
+            "application": null,
+            "version": "1.9.0",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "22.3.4.26",
+            "directory": "runtimes/1.9.0-c088f822d07bf0a7/",
+            "status": "built",
+            "manifestSha256": "c088f822d07bf0a774ccfccfffbdd9f347ce4e27d4d3870a26989eaee814d32e"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "c088f822d07bf0a774ccfccfffbdd9f347ce4e27d4d3870a26989eaee814d32e",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.46 s",
+            "stdout": "VERSION=1.9.0\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.9.4",
+      "sourceSha256": "f3465d8a8e386f3e74831bf9594ee39e6dfde6aa430fe9260844cfe46aa10139",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "bundleEvidence": {
+        "version": "1.9.4",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "phases": [
+          {
+            "target": "historical-packaged",
+            "exitCode": 0,
+            "seconds": 8.953
+          },
+          {
+            "target": "historical-browser-artifacts",
+            "exitCode": 0,
+            "seconds": 12.773
+          }
+        ],
+        "log": "builds/logs/browser-1.9.4.log",
+        "logSha256": "f8b7670e39c87b8eaab09f74109934ddacf88f72b39e73232e0d981a06d00b51",
+        "time": "2026-09-29T17:15:32.213541+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "944173518a838f2805c9c6678f33b7136da2630641fb7f55bf110a29a976dbec",
+      "browserEvidence": {
+        "name": "execute 1.9.4 without external network",
+        "status": "passed",
+        "durationMs": 1035,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.9.4",
+            "application": null,
+            "version": "1.9.4",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "22.3.4.26",
+            "directory": "runtimes/1.9.4-944173518a838f28/",
+            "status": "built",
+            "manifestSha256": "944173518a838f2805c9c6678f33b7136da2630641fb7f55bf110a29a976dbec"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "944173518a838f2805c9c6678f33b7136da2630641fb7f55bf110a29a976dbec",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.51 s",
+            "stdout": "VERSION=1.9.4\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.10.0",
+      "sourceSha256": "6f0d35acfcbede5ef7dced3e37f016fd122c2779000ca9dcaf92975b220737b7",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "bundleEvidence": {
+        "version": "1.10.0",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "phases": [
+          {
+            "target": "historical-packaged",
+            "exitCode": 0,
+            "seconds": 185.335
+          },
+          {
+            "target": "historical-browser-artifacts",
+            "exitCode": 0,
+            "seconds": 42.324
+          }
+        ],
+        "log": "builds/logs/browser-1.10.0.log",
+        "logSha256": "4f5016478fa1e3ced48d011b073c5aaa7d3f5e70a9527339f22bf15eba38eb61",
+        "time": "2026-09-29T17:19:16.683029+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "2cc111091c4a995d6d615463d595913bf5d309777eb3878034a1af13b9aa95f5",
+      "browserEvidence": {
+        "name": "execute 1.10.0 without external network",
+        "status": "passed",
+        "durationMs": 1009,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.10.0",
+            "application": null,
+            "version": "1.10.0",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "22.3.4.26",
+            "directory": "runtimes/1.10.0-2cc111091c4a995d/",
+            "status": "built",
+            "manifestSha256": "2cc111091c4a995d6d615463d595913bf5d309777eb3878034a1af13b9aa95f5"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "2cc111091c4a995d6d615463d595913bf5d309777eb3878034a1af13b9aa95f5",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.43 s",
+            "stdout": "VERSION=1.10.0\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.10.4",
+      "sourceSha256": "8518c78f43fe36315dbe0d623823c2c1b7a025c114f3f4adbb48e04ef63f1d9f",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "bundleEvidence": {
+        "version": "1.10.4",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "phases": [
+          {
+            "target": "historical-packaged",
+            "exitCode": 0,
+            "seconds": 184.359
+          },
+          {
+            "target": "historical-browser-artifacts",
+            "exitCode": 0,
+            "seconds": 42.005
+          }
+        ],
+        "log": "builds/logs/browser-1.10.4.log",
+        "logSha256": "6dd2e4f39147113a93cdb8d9baba171161fba33c3dbd39a76bbcd3963f7149eb",
+        "time": "2026-09-29T17:19:16.376347+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "b1a94ed59f76088724b12a2407c68cc1f030dc160567e2cb0c7b9b72ae125ffb",
+      "browserEvidence": {
+        "name": "execute 1.10.4 without external network",
+        "status": "passed",
+        "durationMs": 973,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.10.4",
+            "application": null,
+            "version": "1.10.4",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "22.3.4.26",
+            "directory": "runtimes/1.10.4-b1a94ed59f760887/",
+            "status": "built",
+            "manifestSha256": "b1a94ed59f76088724b12a2407c68cc1f030dc160567e2cb0c7b9b72ae125ffb"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "b1a94ed59f76088724b12a2407c68cc1f030dc160567e2cb0c7b9b72ae125ffb",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.45 s",
+            "stdout": "VERSION=1.10.4\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.11.0",
+      "sourceSha256": "80b02a8973d2a0becacf577f15b202273002ad9c4d9ef55d8910c8d433c99a59",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "bundleEvidence": {
+        "version": "1.11.0",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "phases": [
+          {
+            "target": "historical-packaged",
+            "exitCode": 0,
+            "seconds": 189.841
+          },
+          {
+            "target": "historical-browser-artifacts",
+            "exitCode": 0,
+            "seconds": 34.644
+          }
+        ],
+        "log": "builds/logs/browser-1.11.0.log",
+        "logSha256": "f3a2a32c06a7cd7e433a6aed875e8651bc30470698f6be910de89c67933a32c5",
+        "time": "2026-09-29T17:19:16.703222+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "730a52b9651b1aa7ebc5f8c2888ef1d3b9977e48578682393deff2e660ee8ead",
+      "browserEvidence": {
+        "name": "execute 1.11.0 without external network",
+        "status": "passed",
+        "durationMs": 939,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.11.0",
+            "application": null,
+            "version": "1.11.0",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "22.3.4.26",
+            "directory": "runtimes/1.11.0-730a52b9651b1aa7/",
+            "status": "built",
+            "manifestSha256": "730a52b9651b1aa7ebc5f8c2888ef1d3b9977e48578682393deff2e660ee8ead"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "730a52b9651b1aa7ebc5f8c2888ef1d3b9977e48578682393deff2e660ee8ead",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.29 s",
+            "stdout": "VERSION=1.11.0\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.11.4",
+      "sourceSha256": "85c7118a0db6007507313db5bddf370216d9394ed7911fe80f21e2fbf7f54d29",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "bundleEvidence": {
+        "version": "1.11.4",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "phases": [
+          {
+            "target": "historical-packaged",
+            "exitCode": 0,
+            "seconds": 188.759
+          },
+          {
+            "target": "historical-browser-artifacts",
+            "exitCode": 0,
+            "seconds": 34.271
+          }
+        ],
+        "log": "builds/logs/browser-1.11.4.log",
+        "logSha256": "7691b54f8ab3d68f8565f987531ade4dee8a1f292acbcdd9579150fd082d8528",
+        "time": "2026-09-29T17:19:16.381809+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "3e7021edf5a058db8760ee7089ab38c6cbda504a984226ac66dbd041a1c773b9",
+      "browserEvidence": {
+        "name": "execute 1.11.4 without external network",
+        "status": "passed",
+        "durationMs": 939,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.11.4",
+            "application": null,
+            "version": "1.11.4",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "22.3.4.26",
+            "directory": "runtimes/1.11.4-3e7021edf5a058db/",
+            "status": "built",
+            "manifestSha256": "3e7021edf5a058db8760ee7089ab38c6cbda504a984226ac66dbd041a1c773b9"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "3e7021edf5a058db8760ee7089ab38c6cbda504a984226ac66dbd041a1c773b9",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.35 s",
+            "stdout": "VERSION=1.11.4\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.12.0",
+      "sourceSha256": "2fc896b5f7174708b9a643f1ff3d1718dcc5d2ee31f01b455c0570e8424a3c9a",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "bundleEvidence": {
+        "version": "1.12.0",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "phases": [
+          {
+            "target": "historical-packaged",
+            "exitCode": 0,
+            "seconds": 238.88
+          },
+          {
+            "target": "historical-browser-artifacts",
+            "exitCode": 0,
+            "seconds": 68.192
+          }
+        ],
+        "log": "builds/logs/browser-1.12.0.log",
+        "logSha256": "6380bf71e74e467ceffec4a2304f45719d178dd2cde801ac8e08b6e523272a0c",
+        "time": "2026-09-29T17:24:23.549177+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "c8ab74e9f3afbde88bbaeea96e522859af9f03ec4a9a0b4618c4a8ad652ac8e4",
+      "browserEvidence": {
+        "name": "execute 1.12.0 without external network",
+        "status": "passed",
+        "durationMs": 983,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.12.0",
+            "application": null,
+            "version": "1.12.0",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "22.3.4.26",
+            "directory": "runtimes/1.12.0-c8ab74e9f3afbde8/",
+            "status": "built",
+            "manifestSha256": "c8ab74e9f3afbde88bbaeea96e522859af9f03ec4a9a0b4618c4a8ad652ac8e4"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "c8ab74e9f3afbde88bbaeea96e522859af9f03ec4a9a0b4618c4a8ad652ac8e4",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.32 s",
+            "stdout": "VERSION=1.12.0\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.12.3",
+      "sourceSha256": "c5affa97defafa1fd89c81656464d61da8f76ccfec2ea80c8a528decd5cb04ad",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "bundleEvidence": {
+        "version": "1.12.3",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "phases": [
+          {
+            "target": "historical-packaged",
+            "exitCode": 0,
+            "seconds": 238.874
+          },
+          {
+            "target": "historical-browser-artifacts",
+            "exitCode": 0,
+            "seconds": 68.197
+          }
+        ],
+        "log": "builds/logs/browser-1.12.3.log",
+        "logSha256": "32f0062677fe05eecc017ed763ce261b3e230ff53f93bcea4a3b3ed9654b0a7e",
+        "time": "2026-09-29T17:24:23.552197+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "7ae70d60cbe8ef4e066b387dfbd07a08e2f5843e85dfe9e38689afe4bea5f376",
+      "browserEvidence": {
+        "name": "execute 1.12.3 without external network",
+        "status": "passed",
+        "durationMs": 959,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.12.3",
+            "application": null,
+            "version": "1.12.3",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "22.3.4.26",
+            "directory": "runtimes/1.12.3-7ae70d60cbe8ef4e/",
+            "status": "built",
+            "manifestSha256": "7ae70d60cbe8ef4e066b387dfbd07a08e2f5843e85dfe9e38689afe4bea5f376"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "7ae70d60cbe8ef4e066b387dfbd07a08e2f5843e85dfe9e38689afe4bea5f376",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.31 s",
+            "stdout": "VERSION=1.12.3\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.13.0",
+      "sourceSha256": "0ed0fb89a9b6428cd1537b7f9aab1d6ea64e0c5972589eeb46dff6f0324468ae",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "bundleEvidence": {
+        "version": "1.13.0",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "phases": [
+          {
+            "target": "historical-packaged",
+            "exitCode": 0,
+            "seconds": 181.517
+          },
+          {
+            "target": "historical-browser-artifacts",
+            "exitCode": 0,
+            "seconds": 76.729
+          }
+        ],
+        "log": "builds/logs/browser-1.13.0.log",
+        "logSha256": "cf7f67799e4dc493ad98de3a60aac875f3e246a6d989c7bf9089f8cd3648f1e6",
+        "time": "2026-09-29T17:23:34.960406+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "015e026310d0f1b04f43d02b5e4c5fff190899ee2026cde62ab3bd2b30276a81",
+      "browserEvidence": {
+        "name": "execute 1.13.0 without external network",
+        "status": "passed",
+        "durationMs": 944,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.13.0",
+            "application": null,
+            "version": "1.13.0",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "22.3.4.26",
+            "directory": "runtimes/1.13.0-015e026310d0f1b0/",
+            "status": "built",
+            "manifestSha256": "015e026310d0f1b04f43d02b5e4c5fff190899ee2026cde62ab3bd2b30276a81"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "015e026310d0f1b04f43d02b5e4c5fff190899ee2026cde62ab3bd2b30276a81",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.32 s",
+            "stdout": "VERSION=1.13.0\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.13.4",
+      "sourceSha256": "95daf2dd3052e6ca7d4d849457eaaba09de52d65ca38d6933c65bc1cdf6b8579",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "bundleEvidence": {
+        "version": "1.13.4",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "phases": [
+          {
+            "target": "historical-packaged",
+            "exitCode": 0,
+            "seconds": 181.511
+          },
+          {
+            "target": "historical-browser-artifacts",
+            "exitCode": 0,
+            "seconds": 76.721
+          }
+        ],
+        "log": "builds/logs/browser-1.13.4.log",
+        "logSha256": "f1d456c2123bfffff746f62dc8339806297ee69a05e20fcc1c5a12956e9077a2",
+        "time": "2026-09-29T17:23:34.958368+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "627d2fbc7d4695fd171f92d14754dc458c4924f12e8d4c886bb2754038773dbf",
+      "browserEvidence": {
+        "name": "execute 1.13.4 without external network",
+        "status": "passed",
+        "durationMs": 961,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.13.4",
+            "application": null,
+            "version": "1.13.4",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "22.3.4.26",
+            "directory": "runtimes/1.13.4-627d2fbc7d4695fd/",
+            "status": "built",
+            "manifestSha256": "627d2fbc7d4695fd171f92d14754dc458c4924f12e8d4c886bb2754038773dbf"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "627d2fbc7d4695fd171f92d14754dc458c4924f12e8d4c886bb2754038773dbf",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.32 s",
+            "stdout": "VERSION=1.13.4\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.14.0",
+      "sourceSha256": "ac129e266a1e04cdc389551843ec3dbdf36086bb2174d3d7e7936e820735003b",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "bundleEvidence": {
+        "version": "1.14.0",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "phases": [
+          {
+            "target": "historical-packaged",
+            "exitCode": 0,
+            "seconds": 235.838
+          },
+          {
+            "target": "historical-browser-artifacts",
+            "exitCode": 0,
+            "seconds": 56.198
+          }
+        ],
+        "log": "builds/logs/browser-1.14.0.log",
+        "logSha256": "8757aaa93e5347705d84b231e4b6920de44453f0642c4d0f18eb7b606fd110c3",
+        "time": "2026-09-29T17:28:27.032460+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "46579ee7fa16ebb4d9d15d346b7d13d08422de56fe914874a6976751dbd537cd",
+      "browserEvidence": {
+        "name": "execute 1.14.0 without external network",
+        "status": "passed",
+        "durationMs": 943,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.14.0",
+            "application": null,
+            "version": "1.14.0",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "24.3.4.17",
+            "directory": "runtimes/1.14.0-46579ee7fa16ebb4/",
+            "status": "built",
+            "manifestSha256": "46579ee7fa16ebb4d9d15d346b7d13d08422de56fe914874a6976751dbd537cd"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "46579ee7fa16ebb4d9d15d346b7d13d08422de56fe914874a6976751dbd537cd",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.31 s",
+            "stdout": "VERSION=1.14.0\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.14.5",
+      "sourceSha256": "2ea249566c67e57f8365ecdcd0efd9b6c375f57609b3ac2de326488ac37c8ebd",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "bundleEvidence": {
+        "version": "1.14.5",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "phases": [
+          {
+            "target": "historical-packaged",
+            "exitCode": 0,
+            "seconds": 235.836
+          },
+          {
+            "target": "historical-browser-artifacts",
+            "exitCode": 0,
+            "seconds": 56.191
+          }
+        ],
+        "log": "builds/logs/browser-1.14.5.log",
+        "logSha256": "a820b747a5efbc5c9d972881ab614eb540e73c57ca8cc280218a75a49cc4e6b0",
+        "time": "2026-09-29T17:28:27.034052+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "1e1808aaffa4949630d1d5bf90d26d8c029645eb99492d777031f0fb7581ecd7",
+      "browserEvidence": {
+        "name": "execute 1.14.5 without external network",
+        "status": "passed",
+        "durationMs": 952,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.14.5",
+            "application": null,
+            "version": "1.14.5",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "24.3.4.17",
+            "directory": "runtimes/1.14.5-1e1808aaffa49496/",
+            "status": "built",
+            "manifestSha256": "1e1808aaffa4949630d1d5bf90d26d8c029645eb99492d777031f0fb7581ecd7"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "1e1808aaffa4949630d1d5bf90d26d8c029645eb99492d777031f0fb7581ecd7",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.34 s",
+            "stdout": "VERSION=1.14.5\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.15.0",
+      "sourceSha256": "0f4df7574a5f300b5c66f54906222cd46dac0df7233ded165bc8e80fd9ffeb7a",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "bundleEvidence": {
+        "version": "1.15.0",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "phases": [
+          {
+            "target": "historical-packaged",
+            "exitCode": 0,
+            "seconds": 187.227
+          },
+          {
+            "target": "historical-browser-artifacts",
+            "exitCode": 0,
+            "seconds": 56.203
+          }
+        ],
+        "log": "builds/logs/browser-1.15.0.log",
+        "logSha256": "8a26034866cd151ad2090a5de482ee74bac3a164117d8f00619de9eb4e9c52a5",
+        "time": "2026-09-29T17:28:27.034089+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "43c39ac5641cf4fef46a0893e36896a9a99cb4be972d34867748823332994993",
+      "browserEvidence": {
+        "name": "execute 1.15.0 without external network",
+        "status": "passed",
+        "durationMs": 959,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.15.0",
+            "application": null,
+            "version": "1.15.0",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "24.3.4.17",
+            "directory": "runtimes/1.15.0-43c39ac5641cf4fe/",
+            "status": "built",
+            "manifestSha256": "43c39ac5641cf4fef46a0893e36896a9a99cb4be972d34867748823332994993"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "43c39ac5641cf4fef46a0893e36896a9a99cb4be972d34867748823332994993",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.36 s",
+            "stdout": "VERSION=1.15.0\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.15.8",
+      "sourceSha256": "09e697ab13fc60f27adaba9b71f8793105acd4320a89b16be0ceb4a13426d779",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "bundleEvidence": {
+        "version": "1.15.8",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "phases": [
+          {
+            "target": "historical-packaged",
+            "exitCode": 0,
+            "seconds": 187.223
+          },
+          {
+            "target": "historical-browser-artifacts",
+            "exitCode": 0,
+            "seconds": 56.186
+          }
+        ],
+        "log": "builds/logs/browser-1.15.8.log",
+        "logSha256": "d948a11c8784bcd87ce7f5239a61074e270751388ad55504db2e858aa5ec7979",
+        "time": "2026-09-29T17:28:27.034009+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "a7e811becbc765a01870bdc96b209b01e2f3ecc4ba114ca10ac31bb57953e611",
+      "browserEvidence": {
+        "name": "execute 1.15.8 without external network",
+        "status": "passed",
+        "durationMs": 942,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.15.8",
+            "application": null,
+            "version": "1.15.8",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "24.3.4.17",
+            "directory": "runtimes/1.15.8-a7e811becbc765a0/",
+            "status": "built",
+            "manifestSha256": "a7e811becbc765a01870bdc96b209b01e2f3ecc4ba114ca10ac31bb57953e611"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "a7e811becbc765a01870bdc96b209b01e2f3ecc4ba114ca10ac31bb57953e611",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.33 s",
+            "stdout": "VERSION=1.15.8\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.16.0",
+      "sourceSha256": "d7fe641e3c85c9774232618d22c880c86c2f31e3508c344ce75d134cd40aea18",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "bundleEvidence": {
+        "version": "1.16.0",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "phases": [
+          {
+            "target": "historical-packaged",
+            "exitCode": 0,
+            "seconds": 300.375
+          },
+          {
+            "target": "historical-browser-artifacts",
+            "exitCode": 0,
+            "seconds": 29.743
+          }
+        ],
+        "log": "builds/logs/browser-1.16.0.log",
+        "logSha256": "daa734f776b38fb9d1b5e76ce41f021d4e7fa909eb8ad5cc0abd87a9b99634d5",
+        "time": "2026-09-29T17:33:57.206260+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "b5d50f313f14ed7cded2c8ed0f954ca8958008a4d2d660d453bd7450986dec52",
+      "browserEvidence": {
+        "name": "execute 1.16.0 without external network",
+        "status": "passed",
+        "durationMs": 932,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.16.0",
+            "application": null,
+            "version": "1.16.0",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "24.3.4.17",
+            "directory": "runtimes/1.16.0-b5d50f313f14ed7c/",
+            "status": "built",
+            "manifestSha256": "b5d50f313f14ed7cded2c8ed0f954ca8958008a4d2d660d453bd7450986dec52"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "b5d50f313f14ed7cded2c8ed0f954ca8958008a4d2d660d453bd7450986dec52",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.30 s",
+            "stdout": "VERSION=1.16.0\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.16.3",
+      "sourceSha256": "a163128e618e5205ea749f8effafa5b540008fd0bed863e75e2e09663a00ec45",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "bundleEvidence": {
+        "version": "1.16.3",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "phases": [
+          {
+            "target": "historical-packaged",
+            "exitCode": 0,
+            "seconds": 300.368
+          },
+          {
+            "target": "historical-browser-artifacts",
+            "exitCode": 0,
+            "seconds": 29.785
+          }
+        ],
+        "log": "builds/logs/browser-1.16.3.log",
+        "logSha256": "f0ca11e78c2d4f656faa61a5b977e78ad8e4a6c4daee558237df35108d6076e4",
+        "time": "2026-09-29T17:33:57.230934+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "491be10c3cee29c7c3fbb5716360049e12a3ee7251014e33cb483e399dee24d3",
+      "browserEvidence": {
+        "name": "execute 1.16.3 without external network",
+        "status": "passed",
+        "durationMs": 941,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.16.3",
+            "application": null,
+            "version": "1.16.3",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "24.3.4.17",
+            "directory": "runtimes/1.16.3-491be10c3cee29c7/",
+            "status": "built",
+            "manifestSha256": "491be10c3cee29c7c3fbb5716360049e12a3ee7251014e33cb483e399dee24d3"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "491be10c3cee29c7c3fbb5716360049e12a3ee7251014e33cb483e399dee24d3",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.30 s",
+            "stdout": "VERSION=1.16.3\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.17.0",
+      "sourceSha256": "558f89cd39458bed1f945d87ad320e5d8f337fa9e627a8479aaefa0494a06ea7",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "bundleEvidence": {
+        "version": "1.17.0",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "phases": [
+          {
+            "target": "historical-packaged",
+            "exitCode": 0,
+            "seconds": 333.396
+          },
+          {
+            "target": "historical-browser-artifacts",
+            "exitCode": 0,
+            "seconds": 61.153
+          }
+        ],
+        "log": "builds/logs/browser-1.17.0.log",
+        "logSha256": "c3ba4dbfe0245afdc823dd9e111c52652e1f8bdb280301663511543c4aa65179",
+        "time": "2026-09-29T17:35:01.858436+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "4b1824dcf19fc93a6de312516b32616a595ed7423eeb61680f48989f6f25b2d2",
+      "browserEvidence": {
+        "name": "execute 1.17.0 without external network",
+        "status": "passed",
+        "durationMs": 955,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.17.0",
+            "application": null,
+            "version": "1.17.0",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "26.2.5.13",
+            "directory": "runtimes/1.17.0-4b1824dcf19fc93a/",
+            "status": "built",
+            "manifestSha256": "4b1824dcf19fc93a6de312516b32616a595ed7423eeb61680f48989f6f25b2d2"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "4b1824dcf19fc93a6de312516b32616a595ed7423eeb61680f48989f6f25b2d2",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.30 s",
+            "stdout": "VERSION=1.17.0\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.17.3",
+      "sourceSha256": "6116c14d5e61ec301240cebeacbf9e97125a4d45cd9071e65e0b958d5ebf3890",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "bundleEvidence": {
+        "version": "1.17.3",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "phases": [
+          {
+            "target": "historical-packaged",
+            "exitCode": 0,
+            "seconds": 333.409
+          },
+          {
+            "target": "historical-browser-artifacts",
+            "exitCode": 0,
+            "seconds": 61.154
+          }
+        ],
+        "log": "builds/logs/browser-1.17.3.log",
+        "logSha256": "7f0b7b49196842ee228887ec043bafd199162f750b22d4c6579d131ed1750e7f",
+        "time": "2026-09-29T17:35:01.859368+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "25d8df1971131590144b456f8b3bbdb27f21e0e7f663edf7dab9de5e125abf42",
+      "browserEvidence": {
+        "name": "execute 1.17.3 without external network",
+        "status": "passed",
+        "durationMs": 953,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.17.3",
+            "application": null,
+            "version": "1.17.3",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "26.2.5.13",
+            "directory": "runtimes/1.17.3-25d8df1971131590/",
+            "status": "built",
+            "manifestSha256": "25d8df1971131590144b456f8b3bbdb27f21e0e7f663edf7dab9de5e125abf42"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "25d8df1971131590144b456f8b3bbdb27f21e0e7f663edf7dab9de5e125abf42",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.32 s",
+            "stdout": "VERSION=1.17.3\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.18.0",
+      "sourceSha256": "f29104ae5a0ea78786b5fb96dce0c569db91df5bd1d3472b365dc2ea14ea784f",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "bundleEvidence": {
+        "version": "1.18.0",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "phases": [
+          {
+            "target": "historical-packaged",
+            "exitCode": 0,
+            "seconds": 103.002
+          },
+          {
+            "target": "historical-browser-artifacts",
+            "exitCode": 0,
+            "seconds": 75.959
+          }
+        ],
+        "log": "builds/logs/browser-1.18.0.log",
+        "logSha256": "b8e23af925b001974008915d97cdde25459281c501ba604714e463497d33cf12",
+        "time": "2026-09-29T17:42:21.585947+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "71b0e438a65b4c0d9744116908858d4ecbfb4994d337c221e7144d0942eeb447",
+      "browserEvidence": {
+        "name": "execute 1.18.0 without external network",
+        "status": "passed",
+        "durationMs": 966,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.18.0",
+            "application": null,
+            "version": "1.18.0",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "26.2.5.13",
+            "directory": "runtimes/1.18.0-71b0e438a65b4c0d/",
+            "status": "built",
+            "manifestSha256": "71b0e438a65b4c0d9744116908858d4ecbfb4994d337c221e7144d0942eeb447"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "71b0e438a65b4c0d9744116908858d4ecbfb4994d337c221e7144d0942eeb447",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.31 s",
+            "stdout": "VERSION=1.18.0\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\nJSON=42\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.18.5",
+      "sourceSha256": "8996eb81697ed84dde41e8ad8f0a52680de52cef35323ca6c9523f668351d873",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "bundleEvidence": {
+        "version": "1.18.5",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "phases": [
+          {
+            "target": "historical-packaged",
+            "exitCode": 0,
+            "seconds": 103.0
+          },
+          {
+            "target": "historical-browser-artifacts",
+            "exitCode": 0,
+            "seconds": 75.968
+          }
+        ],
+        "log": "builds/logs/browser-1.18.5.log",
+        "logSha256": "76ffc341e9714b94437c4f568b4f78869ab1dac0a25aa4978ad625c10e64a60e",
+        "time": "2026-09-29T17:42:21.586948+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "87248974d58a4b8642b877a409ffe70f705f2a41b929e3b6219af2193a3a2e95",
+      "browserEvidence": {
+        "name": "execute 1.18.5 without external network",
+        "status": "passed",
+        "durationMs": 941,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.18.5",
+            "application": null,
+            "version": "1.18.5",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "26.2.5.13",
+            "directory": "runtimes/1.18.5-87248974d58a4b86/",
+            "status": "built",
+            "manifestSha256": "87248974d58a4b8642b877a409ffe70f705f2a41b929e3b6219af2193a3a2e95"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "87248974d58a4b8642b877a409ffe70f705f2a41b929e3b6219af2193a3a2e95",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.34 s",
+            "stdout": "VERSION=1.18.5\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\nJSON=42\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.19.0",
+      "sourceSha256": "99a684045b49f9c5005a1aa8278e1bac8c3769e0a5a13c05ef80b69113029234",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "bundleEvidence": {
+        "version": "1.19.0",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "phases": [
+          {
+            "target": "historical-packaged",
+            "exitCode": 0,
+            "seconds": 104.73
+          },
+          {
+            "target": "historical-browser-artifacts",
+            "exitCode": 0,
+            "seconds": 74.297
+          }
+        ],
+        "log": "builds/logs/browser-1.19.0.log",
+        "logSha256": "f96d7597d122178da6326f4889bb1f593fa048656637ba32a1b12c5fedf7cf40",
+        "time": "2026-09-29T17:42:21.610173+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "806810826643a7357572739df93bbf2180f8a3df55d6729a6ffea90d167bbf63",
+      "browserEvidence": {
+        "name": "execute 1.19.0 without external network",
+        "status": "passed",
+        "durationMs": 957,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.19.0",
+            "application": null,
+            "version": "1.19.0",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "26.2.5.13",
+            "directory": "runtimes/1.19.0-806810826643a735/",
+            "status": "built",
+            "manifestSha256": "806810826643a7357572739df93bbf2180f8a3df55d6729a6ffea90d167bbf63"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "806810826643a7357572739df93bbf2180f8a3df55d6729a6ffea90d167bbf63",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.31 s",
+            "stdout": "VERSION=1.19.0\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\nJSON=42\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.19.6",
+      "sourceSha256": "9c27c00eb9e88666ce7a3c576c1b2160875a56db10e80a49a24a8568c864d071",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "bundleEvidence": {
+        "version": "1.19.6",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "phases": [
+          {
+            "target": "historical-packaged",
+            "exitCode": 0,
+            "seconds": 104.728
+          },
+          {
+            "target": "historical-browser-artifacts",
+            "exitCode": 0,
+            "seconds": 74.269
+          }
+        ],
+        "log": "builds/logs/browser-1.19.6.log",
+        "logSha256": "2712e30e8c92bb473f2b8be78b59580829a77c5895132db5eed7e587110065a6",
+        "time": "2026-09-29T17:42:21.578467+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "c913dd3ed77aa722e3e4416e37c531eb6150109020bd02acdfdb03abfa45fdd4",
+      "browserEvidence": {
+        "name": "execute 1.19.6 without external network",
+        "status": "passed",
+        "durationMs": 944,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.19.6",
+            "application": null,
+            "version": "1.19.6",
+            "otp": "29.0.6",
+            "profile": "historical-retarget",
+            "compilerOtp": "26.2.5.13",
+            "directory": "runtimes/1.19.6-c913dd3ed77aa722/",
+            "status": "built",
+            "manifestSha256": "c913dd3ed77aa722e3e4416e37c531eb6150109020bd02acdfdb03abfa45fdd4"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "c913dd3ed77aa722e3e4416e37c531eb6150109020bd02acdfdb03abfa45fdd4",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.32 s",
+            "stdout": "VERSION=1.19.6\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\nJSON=42\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.20.0",
+      "sourceSha256": "70f6cb721f238fa5dd33eb29aa5b19e5ccc3807e41cd5f9b65d5c715b669438c",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "nativeEvidence": {
+        "version": "1.20.0",
+        "target": "compiler",
+        "status": "built",
+        "exitCode": 0,
+        "log": "builds/logs/compiler-1.20.0.log",
+        "logSha256": "8ce2b230f05b1a9b5b6831200647ea582c835a456eafe9648a4577b0dffdd02b",
+        "time": "2026-09-29T16:07:54.302975+00:00",
+        "browserTested": false
+      },
+      "bundleEvidence": {
+        "version": "1.20.0",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "phases": [
+          {
+            "target": "packaged",
+            "exitCode": 0,
+            "seconds": 68.008
+          },
+          {
+            "target": "browser-artifacts",
+            "exitCode": 0,
+            "seconds": 47.348
+          }
+        ],
+        "log": "builds/logs/browser-1.20.0.log",
+        "logSha256": "80e4819645c939f4f38c575a456de3f63ac56e55791bc7f0db67930526357111",
+        "time": "2026-09-29T17:37:44.257679+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "cfb77a431575b7fe5c1da2a615c4ca5abf95ec3f7d6de461430b566750722507",
+      "browserEvidence": {
+        "name": "execute 1.20.0 without external network",
+        "status": "passed",
+        "durationMs": 991,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.20.0",
+            "application": null,
+            "version": "1.20.0",
+            "otp": "29.0.6",
+            "profile": "core",
+            "compilerOtp": "29.0.6",
+            "directory": "runtimes/1.20.0-cfb77a431575b7fe/",
+            "status": "built",
+            "manifestSha256": "cfb77a431575b7fe5c1da2a615c4ca5abf95ec3f7d6de461430b566750722507"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "cfb77a431575b7fe5c1da2a615c4ca5abf95ec3f7d6de461430b566750722507",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.39 s",
+            "stdout": "VERSION=1.20.0\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\nJSON=42\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    },
+    {
+      "version": "1.20.4",
+      "sourceSha256": "2f87be1702583ecbeee82c0ad4d6353de96463cfa0fa6e7557e05f68d90da869",
+      "native": "passed",
+      "bundle": "built",
+      "browser": "passed",
+      "nativeEvidence": {
+        "version": "1.20.4",
+        "target": "compiler",
+        "status": "built",
+        "exitCode": 0,
+        "log": "builds/logs/compiler-1.20.4.log",
+        "logSha256": "7587890d0202863850a816eb527a795910183f217147991a5a22e34f1a0d959e",
+        "time": "2026-09-29T16:08:16.886788+00:00",
+        "browserTested": false
+      },
+      "bundleEvidence": {
+        "version": "1.20.4",
+        "target": "browser",
+        "application": null,
+        "status": "built",
+        "exitCode": 0,
+        "log": "builds/logs/browser-1.20.4.log",
+        "logSha256": "bf0d19241926d819a61d0f6c1a191a69133cb34a6d2e81df7c92da205238b80c",
+        "time": "2026-09-29T17:11:55.224662+00:00",
+        "browserTested": false
+      },
+      "nativeDependencyEvidence": "The successful Buildx browser target requires its selected native compiler stage to succeed.",
+      "manifestSha256": "ddf91375eebdabfd676fa63ccfcdf5dd2cc584630d839026906a90398528ae4c",
+      "browserEvidence": {
+        "name": "execute 1.20.4 without external network",
+        "status": "passed",
+        "durationMs": 1313,
+        "errors": [],
+        "evidence": {
+          "runtime": {
+            "id": "1.20.4",
+            "application": null,
+            "version": "1.20.4",
+            "otp": "29.0.6",
+            "profile": "core",
+            "compilerOtp": "29.0.6",
+            "directory": "runtimes/1.20.4-ddf91375eebdabfd/",
+            "status": "built",
+            "manifestSha256": "ddf91375eebdabfd676fa63ccfcdf5dd2cc584630d839026906a90398528ae4c"
+          },
+          "browser": "151.0.7922.34",
+          "manifestSha256": "ddf91375eebdabfd676fa63ccfcdf5dd2cc584630d839026906a90398528ae4c",
+          "result": {
+            "status": "Completed \u00b7 exit 0 \u00b7 0.43 s",
+            "stdout": "VERSION=1.20.4\nOTP=29\n[1, 4, 9]\nMESSAGE=42\nlocal file\nJSON=42\n\n=> 42\n",
+            "stderr": ""
+          },
+          "externalRequests": []
+        },
+        "project": null
+      }
+    }
+  ]
+}

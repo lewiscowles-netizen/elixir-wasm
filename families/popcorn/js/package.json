@@ -1,0 +1,6 @@
+{
+  "name": "elixir-wasm-popcorn-bundler",
+  "private": true,
+  "version": "0.0.0",
+  "dependencies": {"esbuild": "0.25.0"}
+}

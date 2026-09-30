@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "target": "wasm32-wasip1",
+  "sdk": {
+    "wasi-sdk-34.0-arm64-linux.tar.gz": {
+      "version": "wasi-sdk-34",
+      "file": "wasi-sdk-34.0-arm64-linux.tar.gz",
+      "url": "https://github.com/WebAssembly/wasi-sdk/releases/download/wasi-sdk-34/wasi-sdk-34.0-arm64-linux.tar.gz",
+      "sha256": "f7e243dff54d60bcc576e94d6166b69f410f2500ae4a9ceef34315be10e77971"
+    },
+    "wasi-sdk-34.0-x86_64-linux.tar.gz": {
+      "version": "wasi-sdk-34",
+      "file": "wasi-sdk-34.0-x86_64-linux.tar.gz",
+      "url": "https://github.com/WebAssembly/wasi-sdk/releases/download/wasi-sdk-34/wasi-sdk-34.0-x86_64-linux.tar.gz",
+      "sha256": "b761e3a0721dbae9c09a0059e5fdb2bf917d1b4a8a7b430fb3b5aafb0984b2c4"
+    }
+  },
+  "wasmtime": {
+    "wasmtime-v49.0.1-aarch64-linux.tar.xz": {
+      "version": "v49.0.1",
+      "file": "wasmtime-v49.0.1-aarch64-linux.tar.xz",
+      "url": "https://github.com/bytecodealliance/wasmtime/releases/download/v49.0.1/wasmtime-v49.0.1-aarch64-linux.tar.xz",
+      "sha256": "7607529c40fed69c0f5d2a6fafa8c560b9e3c18ded31d8f1b13098afe49b7480"
+    },
+    "wasmtime-v49.0.1-aarch64-macos.tar.xz": {
+      "version": "v49.0.1",
+      "file": "wasmtime-v49.0.1-aarch64-macos.tar.xz",
+      "url": "https://github.com/bytecodealliance/wasmtime/releases/download/v49.0.1/wasmtime-v49.0.1-aarch64-macos.tar.xz",
+      "sha256": "93dde14d4efb20046e5af75517ac6a7f2246f6c2370fecff8f68839d4a9028f7"
+    },
+    "wasmtime-v49.0.1-x86_64-linux.tar.xz": {
+      "version": "v49.0.1",
+      "file": "wasmtime-v49.0.1-x86_64-linux.tar.xz",
+      "url": "https://github.com/bytecodealliance/wasmtime/releases/download/v49.0.1/wasmtime-v49.0.1-x86_64-linux.tar.xz",
+      "sha256": "c71f7e0d30a92e418f0d17db7c6d8f6664c1ad764340a1278678f4209deab534"
+    }
+  }
+}

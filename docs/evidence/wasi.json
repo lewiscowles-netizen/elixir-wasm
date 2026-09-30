@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "time": "2026-09-30T05:03:24.197728+00:00",
+  "host": {
+    "version": "wasmtime 49.0.1 (46c23a87d 2026-09-24)",
+    "executableSha256": "112d2142b0119362ab17777a1a6319c42cbff63627dae90ac55aba84df4383cf"
+  },
+  "verifierSha256": "4b8bf1fb32f8009b79840b5631f13848cb3e15e0b6dc434186082574375ccf97",
+  "results": [
+    {
+      "version": "1.17.3",
+      "backend": "atomvm",
+      "target": "wasm32-wasip1",
+      "manifestSha256": "1408c3f043e1784c1a381d8882cff6b60ea2ac3d211f4ba959311270813cbae1",
+      "imports": [
+        "args_get",
+        "args_sizes_get",
+        "clock_time_get",
+        "fd_close",
+        "fd_fdstat_get",
+        "fd_filestat_get",
+        "fd_prestat_get",
+        "fd_prestat_dir_name",
+        "fd_read",
+        "fd_readdir",
+        "fd_seek",
+        "fd_write",
+        "path_filestat_get",
+        "path_open",
+        "path_unlink_file",
+        "poll_oneoff",
+        "proc_exit"
+      ],
+      "cases": [
+        {
+          "name": "no-preopen-denies-program-loading",
+          "status": "failed",
+          "error": "{'name': 'no-preopen-denies-program-loading', 'exitCode': 1, 'stdout': '', 'stderr': 'Error: failed to compile: wasm[0]::function[242]::scheduler_entry_point\\n\\nCaused by:\\n    0: WebAssembly translation error\\n    1: Invalid input WebAssembly code at offset 53973: too many locals: locals exceed maximum\\n\\n', 'seconds': 0.26}",
+          "exitCode": 1,
+          "stdout": "",
+          "stderr": "Error: failed to compile: wasm[0]::function[242]::scheduler_entry_point\n\nCaused by:\n    0: WebAssembly translation error\n    1: Invalid input WebAssembly code at offset 53973: too many locals: locals exceed maximum\n\n",
+          "seconds": 0.26
+        },
+        {
+          "name": "selected-program",
+          "status": "failed",
+          "error": "{'name': 'selected-program', 'exitCode': 1, 'stdout': '', 'stderr': 'Error: failed to compile: wasm[0]::function[242]::scheduler_entry_point\\n\\nCaused by:\\n    0: WebAssembly translation error\\n    1: Invalid input WebAssembly code at offset 53973: too many locals: locals exceed maximum\\n\\n', 'seconds': 0.209}",
+          "exitCode": 1,
+          "stdout": "",
+          "stderr": "Error: failed to compile: wasm[0]::function[242]::scheduler_entry_point\n\nCaused by:\n    0: WebAssembly translation error\n    1: Invalid input WebAssembly code at offset 53973: too many locals: locals exceed maximum\n\n",
+          "seconds": 0.209
+        },
+        {
+          "name": "elixir-processes-timer-no-data-grant",
+          "status": "failed",
+          "error": "{'name': 'elixir-processes-timer-no-data-grant', 'exitCode': 1, 'stdout': '', 'stderr': 'Error: failed to compile: wasm[0]::function[242]::scheduler_entry_point\\n\\nCaused by:\\n    0: WebAssembly translation error\\n    1: Invalid input WebAssembly code at offset 53973: too many locals: locals exceed maximum\\n\\n', 'seconds': 0.227}",
+          "exitCode": 1,
+          "stdout": "",
+          "stderr": "Error: failed to compile: wasm[0]::function[242]::scheduler_entry_point\n\nCaused by:\n    0: WebAssembly translation error\n    1: Invalid input WebAssembly code at offset 53973: too many locals: locals exceed maximum\n\n",
+          "seconds": 0.227
+        },
+        {
+          "name": "granted-file-and-denied-escapes",
+          "status": "failed",
+          "error": "{'name': 'granted-file-and-denied-escapes', 'exitCode': 1, 'stdout': '', 'stderr': 'Error: failed to compile: wasm[0]::function[242]::scheduler_entry_point\\n\\nCaused by:\\n    0: WebAssembly translation error\\n    1: Invalid input WebAssembly code at offset 53973: too many locals: locals exceed maximum\\n\\n', 'seconds': 0.255}",
+          "exitCode": 1,
+          "stdout": "",
+          "stderr": "Error: failed to compile: wasm[0]::function[242]::scheduler_entry_point\n\nCaused by:\n    0: WebAssembly translation error\n    1: Invalid input WebAssembly code at offset 53973: too many locals: locals exceed maximum\n\n",
+          "seconds": 0.255
+        },
+        {
+          "name": "elixir-error-is-host-failure",
+          "status": "failed",
+          "error": "{'name': 'elixir-error-is-host-failure', 'exitCode': 1, 'stdout': '', 'stderr': 'Error: failed to compile: wasm[0]::function[242]::scheduler_entry_point\\n\\nCaused by:\\n    0: WebAssembly translation error\\n    1: Invalid input WebAssembly code at offset 53973: too many locals: locals exceed maximum\\n\\n', 'seconds': 0.252}",
+          "exitCode": 1,
+          "stdout": "",
+          "stderr": "Error: failed to compile: wasm[0]::function[242]::scheduler_entry_point\n\nCaused by:\n    0: WebAssembly translation error\n    1: Invalid input WebAssembly code at offset 53973: too many locals: locals exceed maximum\n\n",
+          "seconds": 0.252
+        },
+        {
+          "name": "host-fuel-stops-infinite-program",
+          "exitCode": 2,
+          "stdout": "",
+          "stderr": "error: unexpected argument '--fuel' found\n\n  tip: to pass '--fuel' as a value, use '-- --fuel'\n\nUsage: wasmtime run [OPTIONS] <WASM>...\n\nFor more information, try '--help'.\n",
+          "seconds": 0.006,
+          "status": "passed"
+        }
+      ],
+      "status": "failed"
+    }
+  ]
+}

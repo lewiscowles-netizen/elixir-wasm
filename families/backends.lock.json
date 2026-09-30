@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "atomvm": {
+    "version": "0.6.6",
+    "commit": "ff993a80963298b532c1e573f883951ecaac9fef",
+    "file": "atomvm-0.6.6.tar.gz",
+    "url": "https://codeload.github.com/atomvm/AtomVM/tar.gz/ff993a80963298b532c1e573f883951ecaac9fef",
+    "sha256": "bcbe5b7d1f1fb8149a4d5cf9e7669308d4edae7e098f0f164dc8ab71bad75c93",
+    "compilerOtp": "26.2.5.13",
+    "compilerImage": "erlang:26.2.5.13@sha256:6bd89837606e25eae13f5b64c6fa55ee3e82523187f04fae89190ef0cff02f1f",
+    "elixirSeries": [
+      "1.17"
+    ]
+  },
+  "popcorn": {
+    "source": {
+      "name": "popcorn",
+      "version": "0.4.0-next.0",
+      "commit": "bea24dd50fec39a5859e49c54d496736a3c6857a",
+      "file": "popcorn.tar.gz",
+      "url": "https://codeload.github.com/software-mansion/popcorn/tar.gz/bea24dd50fec39a5859e49c54d496736a3c6857a",
+      "sha256": "99464f73a9279b65e356fc58d6bd5c002fe69779944b1585ac9faffad1873ef2"
+    },
+    "elixirSeries": [
+      "1.20"
+    ],
+    "jsBuilderImage": "node:24.14.0-bookworm-slim@sha256:d8e448a56fc63242f70026718378bd4b00f8c82e78d20eefb199224a4d8e33d8"
+  }
+}

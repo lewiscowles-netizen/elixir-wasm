@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "families": [
+    {"minMinor": 0, "maxMinor": 1, "otp": "17.5", "image": "erlang:17.5@sha256:3e75172790a9fcfdcc32f8c94297e6134b59a48bb86091f08172e4d5b2a6ae44"},
+    {"minMinor": 2, "maxMinor": 5, "otp": "18.3", "image": "erlang:18.3@sha256:ba863dbd07cf97be1e3cfbd196112a10192144500bb2e43ac4e71d90db081aef"},
+    {"minMinor": 6, "maxMinor": 6, "otp": "19.3", "image": "erlang:19.3@sha256:283f893b4ddff245887f377db1c830a1b28f0df044c1192aa24bbd3a33e18f7e"},
+    {"minMinor": 7, "maxMinor": 13, "otp": "22.3.4.26", "image": "erlang:22.3.4.26@sha256:f5c84265a0bda184dfcc756b27057eadb21d808745222934d13de2418441b4ce"},
+    {"minMinor": 14, "maxMinor": 16, "otp": "24.3.4.17", "image": "erlang:24.3.4.17@sha256:f863c1ef84f19c8c92b6734d6d14bc99ff68b36f908dbf8ece52eebe5897d3d5"},
+    {"minMinor": 17, "maxMinor": 19, "otp": "26.2.5.13", "image": "erlang:26.2.5.13@sha256:6bd89837606e25eae13f5b64c6fa55ee3e82523187f04fae89190ef0cff02f1f"}
+  ]
+}

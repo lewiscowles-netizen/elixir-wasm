@@ -1,0 +1,2809 @@
+{
+  "file": "builds/browser-1.20.4/beam.wasm",
+  "sha256": "4dc0c04d4cefc5c670b8d651cd5930374bd9471c6066d3fd96cad91a2df1676a",
+  "bytes": 2441717,
+  "imports": [
+    {
+      "module": "a",
+      "name": "b",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "c",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "d",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "e",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "f",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "g",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "h",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "i",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "j",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "k",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "l",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "m",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "n",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "o",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "p",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "q",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "r",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "s",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "t",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "u",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "v",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "w",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "x",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "y",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "z",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "A",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "B",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "C",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "D",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "E",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "F",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "G",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "H",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "I",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "J",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "K",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "L",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "M",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "N",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "O",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "P",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "Q",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "R",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "S",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "T",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "U",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "V",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "W",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "X",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "Y",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "Z",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "_",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "$",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "aa",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "ba",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "ca",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "da",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "ea",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "fa",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "ga",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "ha",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "ia",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "ja",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "ka",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "la",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "ma",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "na",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "oa",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "pa",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "qa",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "ra",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "sa",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "ta",
+      "kind": "function"
+    },
+    {
+      "module": "a",
+      "name": "a",
+      "kind": "memory"
+    }
+  ],
+  "exports": [
+    {
+      "name": "ua",
+      "kind": "function"
+    },
+    {
+      "name": "va",
+      "kind": "global"
+    },
+    {
+      "name": "wa",
+      "kind": "function"
+    },
+    {
+      "name": "xa",
+      "kind": "function"
+    },
+    {
+      "name": "ya",
+      "kind": "function"
+    },
+    {
+      "name": "za",
+      "kind": "function"
+    },
+    {
+      "name": "Aa",
+      "kind": "function"
+    },
+    {
+      "name": "Ba",
+      "kind": "function"
+    },
+    {
+      "name": "Ca",
+      "kind": "function"
+    },
+    {
+      "name": "Da",
+      "kind": "function"
+    },
+    {
+      "name": "Ea",
+      "kind": "function"
+    },
+    {
+      "name": "Fa",
+      "kind": "function"
+    },
+    {
+      "name": "Ga",
+      "kind": "function"
+    },
+    {
+      "name": "Ha",
+      "kind": "function"
+    },
+    {
+      "name": "Ia",
+      "kind": "function"
+    },
+    {
+      "name": "Ja",
+      "kind": "function"
+    },
+    {
+      "name": "Ka",
+      "kind": "function"
+    },
+    {
+      "name": "La",
+      "kind": "function"
+    },
+    {
+      "name": "Ma",
+      "kind": "function"
+    },
+    {
+      "name": "Na",
+      "kind": "function"
+    },
+    {
+      "name": "Oa",
+      "kind": "function"
+    },
+    {
+      "name": "Pa",
+      "kind": "function"
+    },
+    {
+      "name": "Qa",
+      "kind": "function"
+    },
+    {
+      "name": "Ra",
+      "kind": "function"
+    },
+    {
+      "name": "Sa",
+      "kind": "function"
+    },
+    {
+      "name": "Ta",
+      "kind": "function"
+    },
+    {
+      "name": "Ua",
+      "kind": "function"
+    },
+    {
+      "name": "Va",
+      "kind": "function"
+    },
+    {
+      "name": "Wa",
+      "kind": "function"
+    },
+    {
+      "name": "Xa",
+      "kind": "function"
+    },
+    {
+      "name": "Ya",
+      "kind": "function"
+    },
+    {
+      "name": "Za",
+      "kind": "function"
+    },
+    {
+      "name": "_a",
+      "kind": "function"
+    },
+    {
+      "name": "$a",
+      "kind": "function"
+    },
+    {
+      "name": "ab",
+      "kind": "function"
+    },
+    {
+      "name": "bb",
+      "kind": "function"
+    },
+    {
+      "name": "cb",
+      "kind": "function"
+    },
+    {
+      "name": "db",
+      "kind": "function"
+    },
+    {
+      "name": "eb",
+      "kind": "function"
+    },
+    {
+      "name": "fb",
+      "kind": "function"
+    },
+    {
+      "name": "gb",
+      "kind": "function"
+    },
+    {
+      "name": "hb",
+      "kind": "function"
+    },
+    {
+      "name": "ib",
+      "kind": "function"
+    },
+    {
+      "name": "jb",
+      "kind": "function"
+    },
+    {
+      "name": "kb",
+      "kind": "function"
+    },
+    {
+      "name": "lb",
+      "kind": "function"
+    },
+    {
+      "name": "mb",
+      "kind": "function"
+    },
+    {
+      "name": "nb",
+      "kind": "function"
+    },
+    {
+      "name": "ob",
+      "kind": "function"
+    },
+    {
+      "name": "pb",
+      "kind": "function"
+    },
+    {
+      "name": "qb",
+      "kind": "function"
+    },
+    {
+      "name": "rb",
+      "kind": "function"
+    },
+    {
+      "name": "sb",
+      "kind": "function"
+    },
+    {
+      "name": "tb",
+      "kind": "function"
+    },
+    {
+      "name": "ub",
+      "kind": "function"
+    },
+    {
+      "name": "vb",
+      "kind": "function"
+    },
+    {
+      "name": "wb",
+      "kind": "function"
+    },
+    {
+      "name": "xb",
+      "kind": "function"
+    },
+    {
+      "name": "yb",
+      "kind": "function"
+    },
+    {
+      "name": "zb",
+      "kind": "function"
+    },
+    {
+      "name": "Ab",
+      "kind": "function"
+    },
+    {
+      "name": "Bb",
+      "kind": "function"
+    },
+    {
+      "name": "Cb",
+      "kind": "function"
+    },
+    {
+      "name": "Db",
+      "kind": "function"
+    },
+    {
+      "name": "Eb",
+      "kind": "function"
+    },
+    {
+      "name": "Fb",
+      "kind": "function"
+    },
+    {
+      "name": "Gb",
+      "kind": "function"
+    },
+    {
+      "name": "Hb",
+      "kind": "function"
+    },
+    {
+      "name": "Ib",
+      "kind": "function"
+    },
+    {
+      "name": "Jb",
+      "kind": "function"
+    },
+    {
+      "name": "Kb",
+      "kind": "function"
+    },
+    {
+      "name": "Lb",
+      "kind": "function"
+    },
+    {
+      "name": "Mb",
+      "kind": "function"
+    },
+    {
+      "name": "Nb",
+      "kind": "function"
+    },
+    {
+      "name": "Ob",
+      "kind": "function"
+    },
+    {
+      "name": "Pb",
+      "kind": "function"
+    },
+    {
+      "name": "Qb",
+      "kind": "function"
+    },
+    {
+      "name": "Rb",
+      "kind": "function"
+    },
+    {
+      "name": "Sb",
+      "kind": "function"
+    },
+    {
+      "name": "Tb",
+      "kind": "function"
+    },
+    {
+      "name": "Ub",
+      "kind": "function"
+    },
+    {
+      "name": "Vb",
+      "kind": "function"
+    },
+    {
+      "name": "Wb",
+      "kind": "global"
+    },
+    {
+      "name": "Xb",
+      "kind": "function"
+    },
+    {
+      "name": "Yb",
+      "kind": "function"
+    },
+    {
+      "name": "Zb",
+      "kind": "function"
+    },
+    {
+      "name": "_b",
+      "kind": "function"
+    },
+    {
+      "name": "$b",
+      "kind": "function"
+    },
+    {
+      "name": "ac",
+      "kind": "function"
+    },
+    {
+      "name": "bc",
+      "kind": "function"
+    },
+    {
+      "name": "cc",
+      "kind": "function"
+    },
+    {
+      "name": "dc",
+      "kind": "function"
+    },
+    {
+      "name": "ec",
+      "kind": "function"
+    },
+    {
+      "name": "fc",
+      "kind": "function"
+    },
+    {
+      "name": "gc",
+      "kind": "function"
+    },
+    {
+      "name": "hc",
+      "kind": "function"
+    },
+    {
+      "name": "ic",
+      "kind": "function"
+    },
+    {
+      "name": "jc",
+      "kind": "function"
+    },
+    {
+      "name": "kc",
+      "kind": "function"
+    },
+    {
+      "name": "lc",
+      "kind": "function"
+    },
+    {
+      "name": "mc",
+      "kind": "function"
+    },
+    {
+      "name": "nc",
+      "kind": "function"
+    },
+    {
+      "name": "oc",
+      "kind": "function"
+    },
+    {
+      "name": "pc",
+      "kind": "function"
+    },
+    {
+      "name": "qc",
+      "kind": "function"
+    },
+    {
+      "name": "rc",
+      "kind": "function"
+    },
+    {
+      "name": "sc",
+      "kind": "function"
+    },
+    {
+      "name": "tc",
+      "kind": "function"
+    },
+    {
+      "name": "uc",
+      "kind": "function"
+    },
+    {
+      "name": "vc",
+      "kind": "function"
+    },
+    {
+      "name": "wc",
+      "kind": "function"
+    },
+    {
+      "name": "xc",
+      "kind": "function"
+    },
+    {
+      "name": "yc",
+      "kind": "function"
+    },
+    {
+      "name": "zc",
+      "kind": "function"
+    },
+    {
+      "name": "Ac",
+      "kind": "function"
+    },
+    {
+      "name": "Bc",
+      "kind": "function"
+    },
+    {
+      "name": "Cc",
+      "kind": "function"
+    },
+    {
+      "name": "Dc",
+      "kind": "function"
+    },
+    {
+      "name": "Ec",
+      "kind": "function"
+    },
+    {
+      "name": "Fc",
+      "kind": "function"
+    },
+    {
+      "name": "Gc",
+      "kind": "function"
+    },
+    {
+      "name": "Hc",
+      "kind": "function"
+    },
+    {
+      "name": "Ic",
+      "kind": "function"
+    },
+    {
+      "name": "Jc",
+      "kind": "function"
+    },
+    {
+      "name": "Kc",
+      "kind": "function"
+    },
+    {
+      "name": "Lc",
+      "kind": "function"
+    },
+    {
+      "name": "Mc",
+      "kind": "function"
+    },
+    {
+      "name": "Nc",
+      "kind": "function"
+    },
+    {
+      "name": "Oc",
+      "kind": "function"
+    },
+    {
+      "name": "Pc",
+      "kind": "function"
+    },
+    {
+      "name": "Qc",
+      "kind": "function"
+    },
+    {
+      "name": "Rc",
+      "kind": "function"
+    },
+    {
+      "name": "Sc",
+      "kind": "function"
+    },
+    {
+      "name": "Tc",
+      "kind": "function"
+    },
+    {
+      "name": "Uc",
+      "kind": "function"
+    },
+    {
+      "name": "Vc",
+      "kind": "function"
+    },
+    {
+      "name": "Wc",
+      "kind": "function"
+    },
+    {
+      "name": "Xc",
+      "kind": "function"
+    },
+    {
+      "name": "Yc",
+      "kind": "function"
+    },
+    {
+      "name": "Zc",
+      "kind": "function"
+    },
+    {
+      "name": "_c",
+      "kind": "function"
+    },
+    {
+      "name": "$c",
+      "kind": "function"
+    },
+    {
+      "name": "ad",
+      "kind": "function"
+    },
+    {
+      "name": "bd",
+      "kind": "function"
+    },
+    {
+      "name": "cd",
+      "kind": "function"
+    },
+    {
+      "name": "dd",
+      "kind": "function"
+    },
+    {
+      "name": "ed",
+      "kind": "function"
+    },
+    {
+      "name": "fd",
+      "kind": "function"
+    },
+    {
+      "name": "gd",
+      "kind": "function"
+    },
+    {
+      "name": "hd",
+      "kind": "function"
+    },
+    {
+      "name": "id",
+      "kind": "function"
+    },
+    {
+      "name": "jd",
+      "kind": "function"
+    },
+    {
+      "name": "kd",
+      "kind": "function"
+    },
+    {
+      "name": "ld",
+      "kind": "function"
+    },
+    {
+      "name": "md",
+      "kind": "function"
+    },
+    {
+      "name": "nd",
+      "kind": "function"
+    },
+    {
+      "name": "od",
+      "kind": "function"
+    },
+    {
+      "name": "pd",
+      "kind": "function"
+    },
+    {
+      "name": "qd",
+      "kind": "function"
+    },
+    {
+      "name": "rd",
+      "kind": "function"
+    },
+    {
+      "name": "sd",
+      "kind": "function"
+    },
+    {
+      "name": "td",
+      "kind": "function"
+    },
+    {
+      "name": "ud",
+      "kind": "function"
+    },
+    {
+      "name": "vd",
+      "kind": "function"
+    },
+    {
+      "name": "wd",
+      "kind": "function"
+    },
+    {
+      "name": "xd",
+      "kind": "function"
+    },
+    {
+      "name": "yd",
+      "kind": "function"
+    },
+    {
+      "name": "zd",
+      "kind": "function"
+    },
+    {
+      "name": "Ad",
+      "kind": "function"
+    },
+    {
+      "name": "Bd",
+      "kind": "function"
+    },
+    {
+      "name": "Cd",
+      "kind": "function"
+    },
+    {
+      "name": "Dd",
+      "kind": "function"
+    },
+    {
+      "name": "Ed",
+      "kind": "function"
+    },
+    {
+      "name": "Fd",
+      "kind": "function"
+    },
+    {
+      "name": "Gd",
+      "kind": "function"
+    },
+    {
+      "name": "Hd",
+      "kind": "function"
+    },
+    {
+      "name": "Id",
+      "kind": "function"
+    },
+    {
+      "name": "Jd",
+      "kind": "function"
+    },
+    {
+      "name": "Kd",
+      "kind": "function"
+    },
+    {
+      "name": "Ld",
+      "kind": "function"
+    },
+    {
+      "name": "Md",
+      "kind": "function"
+    },
+    {
+      "name": "Nd",
+      "kind": "function"
+    },
+    {
+      "name": "Od",
+      "kind": "function"
+    },
+    {
+      "name": "Pd",
+      "kind": "function"
+    },
+    {
+      "name": "Qd",
+      "kind": "function"
+    },
+    {
+      "name": "Rd",
+      "kind": "function"
+    },
+    {
+      "name": "Sd",
+      "kind": "function"
+    },
+    {
+      "name": "Td",
+      "kind": "function"
+    },
+    {
+      "name": "Ud",
+      "kind": "function"
+    },
+    {
+      "name": "Vd",
+      "kind": "function"
+    },
+    {
+      "name": "Wd",
+      "kind": "function"
+    },
+    {
+      "name": "Xd",
+      "kind": "function"
+    },
+    {
+      "name": "Yd",
+      "kind": "function"
+    },
+    {
+      "name": "Zd",
+      "kind": "function"
+    },
+    {
+      "name": "_d",
+      "kind": "function"
+    },
+    {
+      "name": "$d",
+      "kind": "function"
+    },
+    {
+      "name": "ae",
+      "kind": "function"
+    },
+    {
+      "name": "be",
+      "kind": "function"
+    },
+    {
+      "name": "ce",
+      "kind": "function"
+    },
+    {
+      "name": "de",
+      "kind": "function"
+    },
+    {
+      "name": "ee",
+      "kind": "function"
+    },
+    {
+      "name": "fe",
+      "kind": "function"
+    },
+    {
+      "name": "ge",
+      "kind": "function"
+    },
+    {
+      "name": "he",
+      "kind": "function"
+    },
+    {
+      "name": "ie",
+      "kind": "function"
+    },
+    {
+      "name": "je",
+      "kind": "function"
+    },
+    {
+      "name": "ke",
+      "kind": "function"
+    },
+    {
+      "name": "le",
+      "kind": "function"
+    },
+    {
+      "name": "me",
+      "kind": "function"
+    },
+    {
+      "name": "ne",
+      "kind": "function"
+    },
+    {
+      "name": "oe",
+      "kind": "function"
+    },
+    {
+      "name": "pe",
+      "kind": "function"
+    },
+    {
+      "name": "qe",
+      "kind": "function"
+    },
+    {
+      "name": "re",
+      "kind": "function"
+    },
+    {
+      "name": "se",
+      "kind": "function"
+    },
+    {
+      "name": "te",
+      "kind": "function"
+    },
+    {
+      "name": "ue",
+      "kind": "function"
+    },
+    {
+      "name": "ve",
+      "kind": "function"
+    },
+    {
+      "name": "we",
+      "kind": "function"
+    },
+    {
+      "name": "xe",
+      "kind": "function"
+    },
+    {
+      "name": "ye",
+      "kind": "function"
+    },
+    {
+      "name": "ze",
+      "kind": "function"
+    },
+    {
+      "name": "Ae",
+      "kind": "function"
+    },
+    {
+      "name": "Be",
+      "kind": "function"
+    },
+    {
+      "name": "Ce",
+      "kind": "function"
+    },
+    {
+      "name": "De",
+      "kind": "function"
+    },
+    {
+      "name": "Ee",
+      "kind": "function"
+    },
+    {
+      "name": "Fe",
+      "kind": "function"
+    },
+    {
+      "name": "Ge",
+      "kind": "function"
+    },
+    {
+      "name": "He",
+      "kind": "function"
+    },
+    {
+      "name": "Ie",
+      "kind": "function"
+    },
+    {
+      "name": "Je",
+      "kind": "function"
+    },
+    {
+      "name": "Ke",
+      "kind": "function"
+    },
+    {
+      "name": "Le",
+      "kind": "function"
+    },
+    {
+      "name": "Me",
+      "kind": "function"
+    },
+    {
+      "name": "Ne",
+      "kind": "function"
+    },
+    {
+      "name": "Oe",
+      "kind": "function"
+    },
+    {
+      "name": "Pe",
+      "kind": "function"
+    },
+    {
+      "name": "Qe",
+      "kind": "function"
+    },
+    {
+      "name": "Re",
+      "kind": "function"
+    },
+    {
+      "name": "Se",
+      "kind": "function"
+    },
+    {
+      "name": "Te",
+      "kind": "function"
+    },
+    {
+      "name": "Ue",
+      "kind": "function"
+    },
+    {
+      "name": "Ve",
+      "kind": "function"
+    },
+    {
+      "name": "We",
+      "kind": "function"
+    },
+    {
+      "name": "Xe",
+      "kind": "function"
+    },
+    {
+      "name": "Ye",
+      "kind": "function"
+    },
+    {
+      "name": "Ze",
+      "kind": "function"
+    },
+    {
+      "name": "_e",
+      "kind": "function"
+    },
+    {
+      "name": "$e",
+      "kind": "function"
+    },
+    {
+      "name": "af",
+      "kind": "function"
+    },
+    {
+      "name": "bf",
+      "kind": "function"
+    },
+    {
+      "name": "cf",
+      "kind": "function"
+    },
+    {
+      "name": "df",
+      "kind": "function"
+    },
+    {
+      "name": "ef",
+      "kind": "function"
+    },
+    {
+      "name": "ff",
+      "kind": "function"
+    },
+    {
+      "name": "gf",
+      "kind": "function"
+    },
+    {
+      "name": "hf",
+      "kind": "function"
+    },
+    {
+      "name": "jf",
+      "kind": "function"
+    },
+    {
+      "name": "kf",
+      "kind": "function"
+    },
+    {
+      "name": "lf",
+      "kind": "function"
+    },
+    {
+      "name": "mf",
+      "kind": "function"
+    },
+    {
+      "name": "nf",
+      "kind": "function"
+    },
+    {
+      "name": "of",
+      "kind": "function"
+    },
+    {
+      "name": "pf",
+      "kind": "function"
+    },
+    {
+      "name": "qf",
+      "kind": "function"
+    },
+    {
+      "name": "rf",
+      "kind": "function"
+    },
+    {
+      "name": "sf",
+      "kind": "function"
+    },
+    {
+      "name": "tf",
+      "kind": "function"
+    },
+    {
+      "name": "uf",
+      "kind": "function"
+    },
+    {
+      "name": "vf",
+      "kind": "function"
+    },
+    {
+      "name": "wf",
+      "kind": "function"
+    },
+    {
+      "name": "xf",
+      "kind": "function"
+    },
+    {
+      "name": "yf",
+      "kind": "function"
+    },
+    {
+      "name": "zf",
+      "kind": "function"
+    },
+    {
+      "name": "Af",
+      "kind": "function"
+    },
+    {
+      "name": "Bf",
+      "kind": "function"
+    },
+    {
+      "name": "Cf",
+      "kind": "function"
+    },
+    {
+      "name": "Df",
+      "kind": "function"
+    },
+    {
+      "name": "Ef",
+      "kind": "function"
+    },
+    {
+      "name": "Ff",
+      "kind": "function"
+    },
+    {
+      "name": "Gf",
+      "kind": "function"
+    },
+    {
+      "name": "Hf",
+      "kind": "function"
+    },
+    {
+      "name": "If",
+      "kind": "function"
+    },
+    {
+      "name": "Jf",
+      "kind": "function"
+    },
+    {
+      "name": "Kf",
+      "kind": "function"
+    },
+    {
+      "name": "Lf",
+      "kind": "function"
+    },
+    {
+      "name": "Mf",
+      "kind": "function"
+    },
+    {
+      "name": "Nf",
+      "kind": "function"
+    },
+    {
+      "name": "Of",
+      "kind": "function"
+    },
+    {
+      "name": "Pf",
+      "kind": "function"
+    },
+    {
+      "name": "Qf",
+      "kind": "function"
+    },
+    {
+      "name": "Rf",
+      "kind": "function"
+    },
+    {
+      "name": "Sf",
+      "kind": "function"
+    },
+    {
+      "name": "Tf",
+      "kind": "function"
+    },
+    {
+      "name": "Uf",
+      "kind": "function"
+    },
+    {
+      "name": "Vf",
+      "kind": "function"
+    },
+    {
+      "name": "Wf",
+      "kind": "global"
+    },
+    {
+      "name": "Xf",
+      "kind": "function"
+    },
+    {
+      "name": "Yf",
+      "kind": "function"
+    },
+    {
+      "name": "Zf",
+      "kind": "function"
+    },
+    {
+      "name": "_f",
+      "kind": "function"
+    },
+    {
+      "name": "$f",
+      "kind": "function"
+    },
+    {
+      "name": "ag",
+      "kind": "function"
+    },
+    {
+      "name": "bg",
+      "kind": "function"
+    },
+    {
+      "name": "cg",
+      "kind": "function"
+    },
+    {
+      "name": "dg",
+      "kind": "function"
+    },
+    {
+      "name": "eg",
+      "kind": "function"
+    },
+    {
+      "name": "fg",
+      "kind": "function"
+    },
+    {
+      "name": "gg",
+      "kind": "table"
+    },
+    {
+      "name": "hg",
+      "kind": "function"
+    },
+    {
+      "name": "ig",
+      "kind": "function"
+    },
+    {
+      "name": "jg",
+      "kind": "function"
+    },
+    {
+      "name": "kg",
+      "kind": "function"
+    },
+    {
+      "name": "lg",
+      "kind": "function"
+    },
+    {
+      "name": "mg",
+      "kind": "function"
+    },
+    {
+      "name": "ng",
+      "kind": "function"
+    },
+    {
+      "name": "og",
+      "kind": "function"
+    },
+    {
+      "name": "pg",
+      "kind": "function"
+    },
+    {
+      "name": "qg",
+      "kind": "function"
+    },
+    {
+      "name": "rg",
+      "kind": "function"
+    },
+    {
+      "name": "sg",
+      "kind": "function"
+    },
+    {
+      "name": "tg",
+      "kind": "function"
+    },
+    {
+      "name": "ug",
+      "kind": "function"
+    },
+    {
+      "name": "vg",
+      "kind": "function"
+    },
+    {
+      "name": "wg",
+      "kind": "function"
+    },
+    {
+      "name": "xg",
+      "kind": "function"
+    },
+    {
+      "name": "yg",
+      "kind": "function"
+    },
+    {
+      "name": "zg",
+      "kind": "function"
+    },
+    {
+      "name": "Ag",
+      "kind": "function"
+    },
+    {
+      "name": "Bg",
+      "kind": "function"
+    },
+    {
+      "name": "Cg",
+      "kind": "function"
+    },
+    {
+      "name": "Dg",
+      "kind": "function"
+    },
+    {
+      "name": "Eg",
+      "kind": "function"
+    },
+    {
+      "name": "Fg",
+      "kind": "function"
+    },
+    {
+      "name": "Gg",
+      "kind": "function"
+    },
+    {
+      "name": "Hg",
+      "kind": "function"
+    },
+    {
+      "name": "Ig",
+      "kind": "function"
+    },
+    {
+      "name": "Jg",
+      "kind": "function"
+    },
+    {
+      "name": "Kg",
+      "kind": "function"
+    },
+    {
+      "name": "Lg",
+      "kind": "function"
+    },
+    {
+      "name": "Mg",
+      "kind": "function"
+    },
+    {
+      "name": "Ng",
+      "kind": "function"
+    },
+    {
+      "name": "Og",
+      "kind": "function"
+    },
+    {
+      "name": "Pg",
+      "kind": "function"
+    },
+    {
+      "name": "Qg",
+      "kind": "function"
+    },
+    {
+      "name": "Rg",
+      "kind": "function"
+    },
+    {
+      "name": "Sg",
+      "kind": "function"
+    },
+    {
+      "name": "Tg",
+      "kind": "function"
+    },
+    {
+      "name": "Ug",
+      "kind": "function"
+    },
+    {
+      "name": "Vg",
+      "kind": "global"
+    },
+    {
+      "name": "Wg",
+      "kind": "global"
+    },
+    {
+      "name": "Xg",
+      "kind": "global"
+    },
+    {
+      "name": "Yg",
+      "kind": "function"
+    },
+    {
+      "name": "Zg",
+      "kind": "function"
+    },
+    {
+      "name": "_g",
+      "kind": "function"
+    },
+    {
+      "name": "$g",
+      "kind": "function"
+    },
+    {
+      "name": "ah",
+      "kind": "function"
+    },
+    {
+      "name": "bh",
+      "kind": "function"
+    },
+    {
+      "name": "ch",
+      "kind": "function"
+    },
+    {
+      "name": "dh",
+      "kind": "function"
+    },
+    {
+      "name": "eh",
+      "kind": "function"
+    },
+    {
+      "name": "fh",
+      "kind": "function"
+    },
+    {
+      "name": "gh",
+      "kind": "function"
+    },
+    {
+      "name": "hh",
+      "kind": "function"
+    },
+    {
+      "name": "ih",
+      "kind": "function"
+    },
+    {
+      "name": "jh",
+      "kind": "function"
+    },
+    {
+      "name": "kh",
+      "kind": "function"
+    },
+    {
+      "name": "lh",
+      "kind": "global"
+    },
+    {
+      "name": "mh",
+      "kind": "global"
+    },
+    {
+      "name": "nh",
+      "kind": "global"
+    },
+    {
+      "name": "oh",
+      "kind": "global"
+    },
+    {
+      "name": "ph",
+      "kind": "global"
+    },
+    {
+      "name": "qh",
+      "kind": "global"
+    },
+    {
+      "name": "rh",
+      "kind": "global"
+    },
+    {
+      "name": "sh",
+      "kind": "global"
+    },
+    {
+      "name": "th",
+      "kind": "global"
+    },
+    {
+      "name": "uh",
+      "kind": "global"
+    },
+    {
+      "name": "vh",
+      "kind": "global"
+    },
+    {
+      "name": "wh",
+      "kind": "global"
+    },
+    {
+      "name": "xh",
+      "kind": "global"
+    },
+    {
+      "name": "yh",
+      "kind": "global"
+    },
+    {
+      "name": "zh",
+      "kind": "global"
+    },
+    {
+      "name": "Ah",
+      "kind": "global"
+    },
+    {
+      "name": "Bh",
+      "kind": "global"
+    },
+    {
+      "name": "Ch",
+      "kind": "global"
+    },
+    {
+      "name": "Dh",
+      "kind": "global"
+    },
+    {
+      "name": "Eh",
+      "kind": "global"
+    },
+    {
+      "name": "Fh",
+      "kind": "global"
+    },
+    {
+      "name": "Gh",
+      "kind": "global"
+    },
+    {
+      "name": "Hh",
+      "kind": "global"
+    },
+    {
+      "name": "Ih",
+      "kind": "global"
+    },
+    {
+      "name": "Jh",
+      "kind": "global"
+    },
+    {
+      "name": "Kh",
+      "kind": "global"
+    },
+    {
+      "name": "Lh",
+      "kind": "global"
+    },
+    {
+      "name": "Mh",
+      "kind": "global"
+    },
+    {
+      "name": "Nh",
+      "kind": "global"
+    },
+    {
+      "name": "Oh",
+      "kind": "global"
+    },
+    {
+      "name": "Ph",
+      "kind": "global"
+    },
+    {
+      "name": "Qh",
+      "kind": "global"
+    },
+    {
+      "name": "Rh",
+      "kind": "global"
+    },
+    {
+      "name": "Sh",
+      "kind": "global"
+    },
+    {
+      "name": "Th",
+      "kind": "global"
+    },
+    {
+      "name": "Uh",
+      "kind": "global"
+    },
+    {
+      "name": "Vh",
+      "kind": "global"
+    },
+    {
+      "name": "Wh",
+      "kind": "global"
+    },
+    {
+      "name": "Xh",
+      "kind": "global"
+    },
+    {
+      "name": "Yh",
+      "kind": "global"
+    },
+    {
+      "name": "Zh",
+      "kind": "global"
+    },
+    {
+      "name": "_h",
+      "kind": "global"
+    },
+    {
+      "name": "$h",
+      "kind": "global"
+    },
+    {
+      "name": "ai",
+      "kind": "global"
+    },
+    {
+      "name": "bi",
+      "kind": "global"
+    },
+    {
+      "name": "ci",
+      "kind": "global"
+    },
+    {
+      "name": "di",
+      "kind": "global"
+    },
+    {
+      "name": "ei",
+      "kind": "global"
+    },
+    {
+      "name": "fi",
+      "kind": "global"
+    },
+    {
+      "name": "gi",
+      "kind": "global"
+    },
+    {
+      "name": "hi",
+      "kind": "global"
+    },
+    {
+      "name": "ii",
+      "kind": "global"
+    },
+    {
+      "name": "ji",
+      "kind": "global"
+    },
+    {
+      "name": "ki",
+      "kind": "global"
+    },
+    {
+      "name": "li",
+      "kind": "global"
+    },
+    {
+      "name": "mi",
+      "kind": "global"
+    },
+    {
+      "name": "ni",
+      "kind": "global"
+    },
+    {
+      "name": "oi",
+      "kind": "global"
+    },
+    {
+      "name": "pi",
+      "kind": "global"
+    },
+    {
+      "name": "qi",
+      "kind": "global"
+    },
+    {
+      "name": "ri",
+      "kind": "global"
+    },
+    {
+      "name": "si",
+      "kind": "global"
+    },
+    {
+      "name": "ti",
+      "kind": "global"
+    },
+    {
+      "name": "ui",
+      "kind": "global"
+    },
+    {
+      "name": "vi",
+      "kind": "global"
+    },
+    {
+      "name": "wi",
+      "kind": "global"
+    },
+    {
+      "name": "xi",
+      "kind": "global"
+    },
+    {
+      "name": "yi",
+      "kind": "global"
+    },
+    {
+      "name": "zi",
+      "kind": "global"
+    },
+    {
+      "name": "Ai",
+      "kind": "global"
+    },
+    {
+      "name": "Bi",
+      "kind": "global"
+    },
+    {
+      "name": "Ci",
+      "kind": "global"
+    },
+    {
+      "name": "Di",
+      "kind": "global"
+    },
+    {
+      "name": "Ei",
+      "kind": "global"
+    },
+    {
+      "name": "Fi",
+      "kind": "global"
+    },
+    {
+      "name": "Gi",
+      "kind": "global"
+    },
+    {
+      "name": "Hi",
+      "kind": "global"
+    },
+    {
+      "name": "Ii",
+      "kind": "global"
+    },
+    {
+      "name": "Ji",
+      "kind": "global"
+    },
+    {
+      "name": "Ki",
+      "kind": "global"
+    },
+    {
+      "name": "Li",
+      "kind": "global"
+    },
+    {
+      "name": "Mi",
+      "kind": "global"
+    },
+    {
+      "name": "Ni",
+      "kind": "global"
+    },
+    {
+      "name": "Oi",
+      "kind": "global"
+    },
+    {
+      "name": "Pi",
+      "kind": "global"
+    },
+    {
+      "name": "Qi",
+      "kind": "global"
+    },
+    {
+      "name": "Ri",
+      "kind": "global"
+    },
+    {
+      "name": "Si",
+      "kind": "global"
+    },
+    {
+      "name": "Ti",
+      "kind": "global"
+    },
+    {
+      "name": "Ui",
+      "kind": "global"
+    },
+    {
+      "name": "Vi",
+      "kind": "global"
+    },
+    {
+      "name": "Wi",
+      "kind": "global"
+    },
+    {
+      "name": "Xi",
+      "kind": "global"
+    },
+    {
+      "name": "Yi",
+      "kind": "global"
+    },
+    {
+      "name": "Zi",
+      "kind": "global"
+    },
+    {
+      "name": "_i",
+      "kind": "global"
+    },
+    {
+      "name": "$i",
+      "kind": "global"
+    },
+    {
+      "name": "aj",
+      "kind": "global"
+    },
+    {
+      "name": "bj",
+      "kind": "global"
+    },
+    {
+      "name": "cj",
+      "kind": "global"
+    },
+    {
+      "name": "dj",
+      "kind": "global"
+    },
+    {
+      "name": "ej",
+      "kind": "global"
+    },
+    {
+      "name": "fj",
+      "kind": "global"
+    },
+    {
+      "name": "gj",
+      "kind": "global"
+    },
+    {
+      "name": "hj",
+      "kind": "global"
+    },
+    {
+      "name": "ij",
+      "kind": "global"
+    },
+    {
+      "name": "jj",
+      "kind": "global"
+    },
+    {
+      "name": "kj",
+      "kind": "global"
+    },
+    {
+      "name": "lj",
+      "kind": "global"
+    },
+    {
+      "name": "mj",
+      "kind": "global"
+    },
+    {
+      "name": "nj",
+      "kind": "global"
+    },
+    {
+      "name": "oj",
+      "kind": "global"
+    },
+    {
+      "name": "pj",
+      "kind": "global"
+    },
+    {
+      "name": "qj",
+      "kind": "global"
+    },
+    {
+      "name": "rj",
+      "kind": "global"
+    },
+    {
+      "name": "sj",
+      "kind": "global"
+    },
+    {
+      "name": "tj",
+      "kind": "global"
+    },
+    {
+      "name": "uj",
+      "kind": "global"
+    },
+    {
+      "name": "vj",
+      "kind": "global"
+    },
+    {
+      "name": "wj",
+      "kind": "global"
+    },
+    {
+      "name": "xj",
+      "kind": "global"
+    },
+    {
+      "name": "yj",
+      "kind": "global"
+    },
+    {
+      "name": "zj",
+      "kind": "global"
+    },
+    {
+      "name": "Aj",
+      "kind": "global"
+    },
+    {
+      "name": "Bj",
+      "kind": "global"
+    },
+    {
+      "name": "Cj",
+      "kind": "global"
+    },
+    {
+      "name": "Dj",
+      "kind": "global"
+    },
+    {
+      "name": "Ej",
+      "kind": "global"
+    },
+    {
+      "name": "Fj",
+      "kind": "global"
+    },
+    {
+      "name": "Gj",
+      "kind": "global"
+    },
+    {
+      "name": "Hj",
+      "kind": "global"
+    },
+    {
+      "name": "Ij",
+      "kind": "global"
+    },
+    {
+      "name": "Jj",
+      "kind": "global"
+    },
+    {
+      "name": "Kj",
+      "kind": "global"
+    },
+    {
+      "name": "Lj",
+      "kind": "global"
+    },
+    {
+      "name": "Mj",
+      "kind": "global"
+    },
+    {
+      "name": "Nj",
+      "kind": "global"
+    },
+    {
+      "name": "Oj",
+      "kind": "global"
+    },
+    {
+      "name": "Pj",
+      "kind": "global"
+    },
+    {
+      "name": "Qj",
+      "kind": "global"
+    },
+    {
+      "name": "Rj",
+      "kind": "global"
+    },
+    {
+      "name": "Sj",
+      "kind": "global"
+    },
+    {
+      "name": "Tj",
+      "kind": "global"
+    },
+    {
+      "name": "Uj",
+      "kind": "global"
+    },
+    {
+      "name": "Vj",
+      "kind": "global"
+    },
+    {
+      "name": "Wj",
+      "kind": "global"
+    },
+    {
+      "name": "Xj",
+      "kind": "global"
+    },
+    {
+      "name": "Yj",
+      "kind": "global"
+    },
+    {
+      "name": "Zj",
+      "kind": "global"
+    },
+    {
+      "name": "_j",
+      "kind": "global"
+    },
+    {
+      "name": "$j",
+      "kind": "global"
+    },
+    {
+      "name": "ak",
+      "kind": "global"
+    },
+    {
+      "name": "bk",
+      "kind": "global"
+    },
+    {
+      "name": "ck",
+      "kind": "global"
+    },
+    {
+      "name": "dk",
+      "kind": "global"
+    },
+    {
+      "name": "ek",
+      "kind": "global"
+    },
+    {
+      "name": "fk",
+      "kind": "global"
+    },
+    {
+      "name": "gk",
+      "kind": "global"
+    },
+    {
+      "name": "hk",
+      "kind": "global"
+    },
+    {
+      "name": "ik",
+      "kind": "global"
+    },
+    {
+      "name": "jk",
+      "kind": "global"
+    },
+    {
+      "name": "kk",
+      "kind": "global"
+    },
+    {
+      "name": "lk",
+      "kind": "global"
+    },
+    {
+      "name": "mk",
+      "kind": "global"
+    },
+    {
+      "name": "nk",
+      "kind": "global"
+    },
+    {
+      "name": "ok",
+      "kind": "global"
+    },
+    {
+      "name": "pk",
+      "kind": "global"
+    },
+    {
+      "name": "qk",
+      "kind": "global"
+    },
+    {
+      "name": "rk",
+      "kind": "global"
+    },
+    {
+      "name": "sk",
+      "kind": "global"
+    },
+    {
+      "name": "tk",
+      "kind": "global"
+    },
+    {
+      "name": "uk",
+      "kind": "global"
+    },
+    {
+      "name": "vk",
+      "kind": "global"
+    },
+    {
+      "name": "wk",
+      "kind": "global"
+    },
+    {
+      "name": "xk",
+      "kind": "global"
+    },
+    {
+      "name": "yk",
+      "kind": "global"
+    },
+    {
+      "name": "zk",
+      "kind": "global"
+    },
+    {
+      "name": "Ak",
+      "kind": "global"
+    },
+    {
+      "name": "Bk",
+      "kind": "global"
+    },
+    {
+      "name": "Ck",
+      "kind": "global"
+    },
+    {
+      "name": "Dk",
+      "kind": "global"
+    },
+    {
+      "name": "Ek",
+      "kind": "global"
+    },
+    {
+      "name": "Fk",
+      "kind": "global"
+    },
+    {
+      "name": "Gk",
+      "kind": "function"
+    },
+    {
+      "name": "Hk",
+      "kind": "function"
+    },
+    {
+      "name": "Ik",
+      "kind": "function"
+    },
+    {
+      "name": "Jk",
+      "kind": "function"
+    },
+    {
+      "name": "Kk",
+      "kind": "function"
+    },
+    {
+      "name": "Lk",
+      "kind": "function"
+    },
+    {
+      "name": "Mk",
+      "kind": "function"
+    },
+    {
+      "name": "Nk",
+      "kind": "function"
+    },
+    {
+      "name": "Ok",
+      "kind": "function"
+    },
+    {
+      "name": "Pk",
+      "kind": "function"
+    },
+    {
+      "name": "Qk",
+      "kind": "function"
+    },
+    {
+      "name": "Rk",
+      "kind": "global"
+    },
+    {
+      "name": "Sk",
+      "kind": "global"
+    },
+    {
+      "name": "Tk",
+      "kind": "global"
+    },
+    {
+      "name": "Uk",
+      "kind": "global"
+    },
+    {
+      "name": "Vk",
+      "kind": "global"
+    },
+    {
+      "name": "Wk",
+      "kind": "global"
+    },
+    {
+      "name": "Xk",
+      "kind": "global"
+    },
+    {
+      "name": "Yk",
+      "kind": "global"
+    },
+    {
+      "name": "Zk",
+      "kind": "global"
+    },
+    {
+      "name": "_k",
+      "kind": "global"
+    },
+    {
+      "name": "$k",
+      "kind": "global"
+    },
+    {
+      "name": "al",
+      "kind": "global"
+    },
+    {
+      "name": "bl",
+      "kind": "function"
+    },
+    {
+      "name": "cl",
+      "kind": "function"
+    },
+    {
+      "name": "dl",
+      "kind": "function"
+    },
+    {
+      "name": "el",
+      "kind": "function"
+    },
+    {
+      "name": "fl",
+      "kind": "function"
+    },
+    {
+      "name": "gl",
+      "kind": "function"
+    },
+    {
+      "name": "hl",
+      "kind": "function"
+    },
+    {
+      "name": "il",
+      "kind": "function"
+    },
+    {
+      "name": "jl",
+      "kind": "function"
+    },
+    {
+      "name": "kl",
+      "kind": "function"
+    },
+    {
+      "name": "ll",
+      "kind": "function"
+    },
+    {
+      "name": "ml",
+      "kind": "function"
+    },
+    {
+      "name": "nl",
+      "kind": "function"
+    },
+    {
+      "name": "ol",
+      "kind": "function"
+    },
+    {
+      "name": "pl",
+      "kind": "function"
+    },
+    {
+      "name": "ql",
+      "kind": "function"
+    },
+    {
+      "name": "rl",
+      "kind": "function"
+    },
+    {
+      "name": "sl",
+      "kind": "function"
+    },
+    {
+      "name": "tl",
+      "kind": "function"
+    },
+    {
+      "name": "ul",
+      "kind": "global"
+    },
+    {
+      "name": "vl",
+      "kind": "global"
+    },
+    {
+      "name": "wl",
+      "kind": "global"
+    },
+    {
+      "name": "xl",
+      "kind": "global"
+    },
+    {
+      "name": "yl",
+      "kind": "global"
+    },
+    {
+      "name": "zl",
+      "kind": "global"
+    },
+    {
+      "name": "Al",
+      "kind": "global"
+    },
+    {
+      "name": "Bl",
+      "kind": "global"
+    },
+    {
+      "name": "Cl",
+      "kind": "global"
+    },
+    {
+      "name": "Dl",
+      "kind": "function"
+    },
+    {
+      "name": "El",
+      "kind": "function"
+    },
+    {
+      "name": "Fl",
+      "kind": "function"
+    },
+    {
+      "name": "Gl",
+      "kind": "function"
+    },
+    {
+      "name": "Hl",
+      "kind": "function"
+    }
+  ],
+  "pureWasiPreview1Imports": false,
+  "note": "Import inspection does not establish host execution compatibility."
+}

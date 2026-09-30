@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "name": "otp",
+      "version": "29.0.6",
+      "commit": "e07fd07837e5aa845657f5fa340637121e451d47",
+      "file": "otp.tar.gz",
+      "url": "https://codeload.github.com/erlang/otp/tar.gz/e07fd07837e5aa845657f5fa340637121e451d47",
+      "sha256": "595cf691f8bd78b33d1f3f8f6c16ff47f0eaad9dc76f73960af9372181720b1a"
+    },
+    {
+      "name": "popcorn",
+      "version": "0.4.0-next.0",
+      "commit": "bea24dd50fec39a5859e49c54d496736a3c6857a",
+      "file": "popcorn.tar.gz",
+      "url": "https://codeload.github.com/software-mansion/popcorn/tar.gz/bea24dd50fec39a5859e49c54d496736a3c6857a",
+      "sha256": "99464f73a9279b65e356fc58d6bd5c002fe69779944b1585ac9faffad1873ef2"
+    },
+    {
+      "name": "autoconf",
+      "version": "2.72",
+      "file": "autoconf.tar.gz",
+      "url": "https://ftp.gnu.org/gnu/autoconf/autoconf-2.72.tar.gz",
+      "sha256": "afb181a76e1ee72832f6581c0eddf8df032b83e2e0239ef79ebedc4467d92d6e"
+    }
+  ],
+  "images": {
+    "emsdk": "emscripten/emsdk:6.0.2@sha256:644883f58ca15c38c8be59b3a727ba0eff347729bc31d50a3348a6c9ed92bc07",
+    "otp": "hexpm/erlang:29.0.6-ubuntu-noble-20260911@sha256:7bc4f2c3eea8acec1d27572f85c22c55c50d7def5b9790ea7c94c7ff93cf6e78"
+  }
+}
